@@ -26,3 +26,36 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+General ideas about creating the app:
+
+Have questions
+
+have users who earn points. 
+
+many to many?
+Users can answer many questions
+a question can be answered by many users
+
+Questions:
+	multiple choice
+	correct option
+	1 similar choice
+	2 random choices
+	random shuffling of correct answer (so that it’s not always C)
+	(Find someone in South African education to run this by)
+
+Story-for the presentation:
+Let's spend a lot of time thinking about this.
+Also examine the template that Salman/Rafi promised.
+Problems
+	Lack of good education
+	low graduation rates
+	students stop going to class and get involved in other activities
+		mention stories from Khayelisha here.
+Solution:
+	Create quiz game to:
+		reinforce concepts
+		compete with friends
+		promote knowledge of South African history.
+

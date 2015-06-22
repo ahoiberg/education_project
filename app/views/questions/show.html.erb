@@ -2,13 +2,15 @@
 
 <p><%= @question.query %></p>
 
-<form>
+<form =":id/explanation" method="GET">
 	<% @options.each do |option| %>
-		<input type="radio" name=<%"#{option.is_correct?}"%> value=<%option.choice%>><%=option.choice%>
-		<br>
+
+		<button type="button"  class="btn btn-default">
+		<%= link_to(option.choice, "questions/:id/explanation") %>
+		</button>
+		<br><br>
+
 	<% end %>
+
 </form>
 
-<form action=":id/explanation">
-    <input type="submit" value="Submit">
-</form>

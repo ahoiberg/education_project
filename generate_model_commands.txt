@@ -1,0 +1,5 @@
+rails generate model Game title:string score:integer
+
+rails generate model Question query:string game_id:integer explanation:string
+
+rails generate model Option choice:string is_correct?:boolean question_id:integer

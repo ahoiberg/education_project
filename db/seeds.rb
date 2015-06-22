@@ -91,7 +91,7 @@ Option.create! choice: "District 9", is_correct?: false, question_id: 10
 Game.create! title: "Apartheid"
 
 #Question 11
-Question.create! query: "What year were the apartheid laws enacted?", game_id: 2, explanation: "Apartheid is an Africans word meaning "separation" or "being apart".This system was used to mistreat and deny rights to non-white people. The laws allowed the white minority to keep the black majority out of certain areas without special papers or permission."
+Question.create! query: "What year were the apartheid laws enacted?", game_id: 2, explanation: "Apartheid is an Africans word meaning \"separation\" or \"being apart\".This system was used to mistreat and deny rights to non-white people. The laws allowed the white minority to keep the black majority out of certain areas without special papers or permission."
 
 Option.create! choice: "1943", is_correct?: false, question_id: 11
 Option.create! choice: "1953", is_correct?: false, question_id: 11
@@ -174,7 +174,7 @@ Option.create! choice: "1989", is_correct?: false, question_id: 20
 Game.create! title: "South African History"
 
 #Question 21
-Question.create! query: "What was the official flag of the Zuid-Afrikaanse Republiek from 1858 until 1902?", game_id: 3, explanation: "The Transvaal Vierkleur was designed by Dirk van der Hoff and contained a green vertical stripe and 3 horizontal stripes of red, white and blue. The flag was hoisted for the first time on 6 January 1857 in Potchefstroom. The flag was later incorporated into the official flag of the Union and the Republic of South Africa until 1994 when the official flag was changed. Vierkleur literally means "Four Colors". The flag was the subject of a poem called "Die Vierkleur van Transvaal" by S.J. du Toit."
+Question.create! query: "What was the official flag of the Zuid-Afrikaanse Republiek from 1858 until 1902?", game_id: 3, explanation: "The Transvaal Vierkleur was designed by Dirk van der Hoff and contained a green vertical stripe and 3 horizontal stripes of red, white and blue. The flag was hoisted for the first time on 6 January 1857 in Potchefstroom. The flag was later incorporated into the official flag of the Union and the Republic of South Africa until 1994 when the official flag was changed. Vierkleur literally means \"Four Colors\". The flag was the subject of a poem called \"Die Vierkleur van Transvaal\" by S.J. du Toit."
 Option.create! choice: "The Transvaal Vierkleur", is_correct?: true, question_id: 21
 Option.create! choice: "The Boeremag Trial for Treason", is_correct?: false, question_id: 21
 Option.create! choice: "Advocate Barbie’s Trial", is_correct?: false, question_id: 21
@@ -230,7 +230,7 @@ Option.create! choice: "The Great Trek", is_correct?: true, question_id: 28
 Option.create! choice: "The Treason", is_correct?: false, question_id: 28
 
 #Question 29
-Question.create! query: "By the mid-1800s in South Africa large numbers of "Voortrekkers" had settled in what is now known as the Free State and Transvaal, and were living free of British rule. All that changed in March 1886 when a prospector came across a very important reef on the Witwatersrand. What did it contain?", game_id: 3, explanation: "George Harrison was a prospector in the area where Johannesburg is now located. One Sunday he stumbled across a gold-bearing reef, and the rest is history. Along with the discovery of diamonds a few years earlier in the Kimberley area, this turned the interior of the country into a very valuable asset. The British claimed the important areas for themselves amid great unhappiness on the part of the Boer Republics."
+Question.create! query: "By the mid-1800s in South Africa large numbers of \"Voortrekkers\" had settled in what is now known as the Free State and Transvaal, and were living free of British rule. All that changed in March 1886 when a prospector came across a very important reef on the Witwatersrand. What did it contain?", game_id: 3, explanation: "George Harrison was a prospector in the area where Johannesburg is now located. One Sunday he stumbled across a gold-bearing reef, and the rest is history. Along with the discovery of diamonds a few years earlier in the Kimberley area, this turned the interior of the country into a very valuable asset. The British claimed the important areas for themselves amid great unhappiness on the part of the Boer Republics."
 Option.create! choice: "Platinum", is_correct?: false, question_id: 29
 Option.create! choice: "Aluminum", is_correct?: false, question_id: 29
 Option.create! choice: "Copper", is_correct?: false, question_id: 29

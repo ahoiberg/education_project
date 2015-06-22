@@ -1,0 +1,9 @@
+<h1>Question <%=@question.id%></h1>
+
+<p><%= @question.query %></p>
+
+<ol>
+<% @options.each do |option| %>
+<li> <%= option.choice %> </li>
+<% end %>
+</ol>

@@ -6,6 +6,11 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+#delete all as a precaution
+Game.delete_all
+Question.delete_all
+Option.delete_all
+
 #Game 1-Pop Culture
 #Game2-Apartheid 
 #Game3-South African history

@@ -1,5 +1,10 @@
 class QuestionsController <ApplicationController
 
+	def show
+		@question = Question.find(params[:id])
+		@options = @question.options
+	end
+
 	def new
 		@question = Question.new
 	end

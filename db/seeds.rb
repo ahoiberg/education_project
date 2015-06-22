@@ -9,6 +9,7 @@
 #Game 1-Pop Culture
 #Game2-Apartheid 
 #Game3-South African history
+
 #Game 1
 Game.create! title: "South African Pop Culture"
 
@@ -88,7 +89,88 @@ Option.create! choice: "District 9", is_correct?: false, question_id: 10
 
 #Game 2
 Game.create! title: "Apartheid"
-Question.create! 
 
+#Question 11
+Question.create! query: "What year were the apartheid laws enacted?", game_id: 2, explanation: "Apartheid is an Africans word meaning "separation" or "being apart".This system was used to mistreat and deny rights to non-white people. The laws allowed the white minority to keep the black majority out of certain areas without special papers or permission."
+
+Option.create! choice: "1943", is_correct?: false, question_id: 11
+Option.create! choice: "1953", is_correct?: false, question_id: 11
+Option.create! choice: "1948", is_correct?: true, question_id: 11
+Option.create! choice: "1994", is_correct?: false, question_id: 11
+
+#Question 12
+Question.create! query: "In the Republic of South Africa, the primary goal of the African National Congress (ANC) has been to", game_id: 2, explanation: "The African National Congress is composed of South Africa blacks who are the majority people in South Africa, but have been denied participation in the government by the minority white population. The ANC has sought to become the ruling party in South Africa for some time."
+
+Option.create! choice: "eliminate communist influence", is_correct?: false, question_id: 12
+Option.create! choice: "rule as the majority political party", is_correct?: true, question_id: 12
+Option.create! choice: "create a united Africa ", is_correct?: false, question_id: 12
+Option.create! choice: "promote homeland areas for Blacks", is_correct?: false, question_id: 12
+
+#Question 13
+Question.create! query: "What was the name of African National Congress’ (ANC) opposition?", game_id: 2, explanation: "The National Party was a political party in South Africa founded in 1915 and was the governing party of the country from 4 June 1948 until 9 May 1994. Members of the National Party were sometimes known as Nationalists or Nats. The policies of the party included apartheid, the establishment of a republic, and the promotion of Afrikaner culture."
+
+Option.create! choice: "The other ANC party	", is_correct?: false, question_id: 13  
+Option.create! choice: "Blue party", is_correct?: false, question_id: 13  
+Option.create! choice: "National Party", is_correct?: true, question_id: 13  
+Option.create! choice: "Unity Party", is_correct?: false, question_id: 13  
+
+#Question 14
+Question.create! query: "In the 1980’s, global concern for Blacks in the Republic of South Africa led many nations to", game_id: 2, explanation: "One of the many tools other nations used to end Apartheid was economic boycotts of South African products and services"
+
+Option.create! choice: "support policies of Apartheid ", is_correct?: false, question_id: 14  
+Option.create! choice: "impose economic sanctions on South Africa", is_correct?: true, question_id: 14  
+Option.create! choice: "sent troops to South Africa", is_correct?: false, question_id: 14  
+Option.create! choice: "demand that Whites return to their European homelands ", is_correct?: false, question_id: 14
+
+#Question 15
+Question.create! query: "Which statement best characterizes the period of apartheid in South Africa?", game_id: 2, explanation: "Apartheid was a series of laws that segregated and discriminated against the majority black population of South Africa. This policy was started and upheld by the minority white population who held all governmental power."
+
+Option.create! choice: "the majority of the population had the right to vote", is_correct?: false , question_id: 15
+Option.create! choice: "the Boers attempted to conquer Nigeria", is_correct?: false, question_id: 15
+Option.create! choice: "many racist ideas of the ruling minority were adopted into laws ", is_correct?: true, question_id: 15
+Option.create! choice: "French was declared the official language of the nation", is_correct?: false, question_id: 16
+
+#Question 16
+Question.create! query: "In the Republic of South Africa, the slogans “Freedom in Our Lifetime” and “New South Africa” changed from promises to reality after", game_id: 2, explanation: "The election of Nelson Mandela, a black South African, marked the beginning of a new era in South African history. Apartheid laws had been repealed and the government began working toward the equally of all of its citizens."
+
+Option.create! choice: "Frederik W. de Klerk took over the radical white police force ", is_correct?: false, question_id: 16
+Option.create! choice: "United Nations troops occupied the Transvaal", is_correct?: false, question_id: 16
+Option.create! choice: "Nelson Mandela was elected President", is_correct?: true, question_id: 16
+Option.create! choice: "the majority of white South Africans returned to Europe", is_correct?: false, question_id: 16
+
+#Question 17
+Question.create! query: " ", game_id: 2, explanation: "During apartheid, many blacks found work on white-owned mines, farms, or as servants. In the cities blacks had to live in separate areas called townships. These townships were little more than slums with no running water and tiny houses made of scraps of wood and metal. "
+
+Option.create! choice: "Projects", is_correct?: false, question_id: 17
+Option.create! choice: "Townships", is_correct?: true, question_id: 17
+Option.create! choice: "Outskirts", is_correct?: false, question_id: 17
+Option.create! choice: "Huts", is_correct?: false, question_id: 17
+
+#Question 18
+Question.create! query: "How many years was Nelson Mandela in prison for? ", game_id: 2, explanation: "Nelson Mandela was imprisoned for 27 years by the South African apartheid government. His crime? Standing up against a government that was committing egregious human rights abuses against black South Africans. He was released from prison in 1990 and went on to lead the way for the abolition of apartheid in 1994."
+
+Option.create! choice: "2", is_correct?: false, question_id: 18
+Option.create! choice: "17", is_correct?: false, question_id: 18
+Option.create! choice: "7", is_correct?: false, question_id: 18
+Option.create! choice: "27", is_correct?: true, question_id: 18
+
+#Question 19
+Question.create! query: "Who was the last president to serve during the apartheid?", game_id: 2, explanation: "Frederik Willem de Klerk served from 1989 - 1994. He was the 7th and last State President under the apartheid era. De Klerk brokered the end of apartheid, South Africa's racial segregation policy, and supported the transformation of South Africa into a multi-racial democracy by entering into the negotiations that resulted in all citizens, including the country's black majority, having equal voting and other rights."
+
+Option.create! choice: "Frederik Willem de Klerk", is_correct?: true, question_id: 19
+Option.create! choice: "Nelson Mandela", is_correct?: false, question_id: 19
+Option.create! choice: "P.W Botha", is_correct?: false, question_id: 19
+Option.create! choice: "Johannes de Klerk", is_correct?: false, question_id: 19
+
+#Question 20
+Question.create! query: "What year did the apartheid end?", game_id: 2, explanation: "partheid came to a definitive end on 27 April 1994, when South African people of all races were able to vote for the first time in a national election."
+
+Option.create! choice: "1994", is_correct?: true, question_id: 20
+Option.create! choice: "1953", is_correct?: false, question_id: 20
+Option.create! choice: "2002", is_correct?: false, question_id: 20
+Option.create! choice: "1989", is_correct?: false, question_id: 20
+
+#Game 3
+Game.create! title: "South African History"
 
 

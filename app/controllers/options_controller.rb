@@ -10,4 +10,10 @@ class OptionsController <ApplicationController
 
 		redirect_to '/games'
 	end
+
+	def check 
+		answer = @option.is_correct
+
+		render :partial => 'explanation', :locals => {:answer => answer}
+	end
 end

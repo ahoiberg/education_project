@@ -1,9 +1,9 @@
 <h1>Welcome FundiLearns</h1>
 
 <ol>
-<% @games.each do |game| %>
+<% @games.each_with_index do |game,index| %>
 	<li>
-		<%= link_to(game.title, "/questions/#{game.id*10+1-10}") %>
+		<%= link_to(game.title, "/questions/#{Question.first.id+(index*10)}") %>
 	</li>
 	<% end %>
 </ol>

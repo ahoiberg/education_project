@@ -3,13 +3,16 @@ class GamesController < ApplicationController
 		@games = Game.all
 	end
 
+	def finish
+		@game = Game.find(params[:id])
+	end
+
 	def new
 		@game = Game.new
 	end
 
 	def create
 		@game = Game.new(params["game"].permit(:title))
-		@game.score = 0
 		@game.save
 
 		redirect_to '/games'

@@ -170,7 +170,78 @@ Option.create! choice: "1953", is_correct?: false, question_id: 20
 Option.create! choice: "2002", is_correct?: false, question_id: 20
 Option.create! choice: "1989", is_correct?: false, question_id: 20
 
-#Game 3
+# Game 3
 Game.create! title: "South African History"
+
+#Question 21
+Question.create! query: "What was the official flag of the Zuid-Afrikaanse Republiek from 1858 until 1902?", game_id: 3, explanation: "The Transvaal Vierkleur was designed by Dirk van der Hoff and contained a green vertical stripe and 3 horizontal stripes of red, white and blue. The flag was hoisted for the first time on 6 January 1857 in Potchefstroom. The flag was later incorporated into the official flag of the Union and the Republic of South Africa until 1994 when the official flag was changed. Vierkleur literally means "Four Colors". The flag was the subject of a poem called "Die Vierkleur van Transvaal" by S.J. du Toit."
+Option.create! choice: "The Transvaal Vierkleur", is_correct?: true, question_id: 21
+Option.create! choice: "The Boeremag Trial for Treason", is_correct?: false, question_id: 21
+Option.create! choice: "Advocate Barbie’s Trial", is_correct?: false, question_id: 21
+Option.create! choice: "The Nelson Mandela Trial for treason", is_correct?: false, question_id: 21
+
+#Question 22
+Question.create! query: "In what year did the British take control of the Cape Colony?", game_id: 3, explanation: "In 1795 a British force was dispatched to the Cape and landed successfully on the shore of False Bay. The Dutch colonists couldn't repel the invasion. A British administration was set up under Earl McCartney."
+Option.create! choice: "1805", is_correct?: false, question_id: 22
+Option.create! choice: "1796", is_correct?: true, question_id: 22
+Option.create! choice: "1801", is_correct?: false, question_id: 22
+Option.create! choice: "1789", is_correct?: false, question_id: 22
+
+#Question 23
+Question.create! query: "What petroleum company used coal to create petrol, during the boycott of trade to South Africa?", game_id: 3, explanation: "Sasol changes coal, which South Africa has plenty of and turns it into petrol. The origins of the process go back to German efforts in the 1920s, but the process has become much more sophisticated and efficient."
+Option.create! choice: "Total", is_correct?: false, question_id: 23
+Option.create! choice: "Shell", is_correct?: false, question_id: 23
+Option.create! choice: "Sasol", is_correct?: true, question_id: 23
+Option.create! choice: "BP", is_correct?: false, question_id: 23
+
+#Question 24
+Question.create! query: " At first the Cape Colony was struggling. What happened in the 1680s that strengthened the colony?", game_id: 3, explanation: "In 1652 the Dutch East India Company sent 80 colonists to the southern tip of Africa. Here they founded a trading post called Cape Town. At first the colony struggled, but in the 1680s it was strenghtened by the arrival of French Huguenot refugees."
+Option.create! choice: "Diamonds were found", is_correct?: false, question_id: 24
+Option.create! choice: "French Huguenot refugees arrived", is_correct?: true, question_id: 24
+Option.create! choice: "10,000 cows were imported from England", is_correct?: false, question_id: 24
+Option.create! choice: "The Dutch started to sell natives as slaves", is_correct?: false, question_id: 24
+
+#Question 25
+Question.create! query: "Who were the Presidents of the independent Boer Republics before and during the Second Anglo-Boer War?", game_id: 3, explanation: "The two independent Boer Republics were the Transvaal Republic and the Orange Free State. Paul Kruger was President of the Transvaal Republic and Martinus Steyn was President of the Orange Free State. The Second Anglo-Boer war ended on the 31 May 1902 with the signing of the Treaty of Vereeniging. The war was mainly fought between the Boers and the British."
+Option.create! choice: "Johan du Plessis & Piet Retief", is_correct?: false, question_id: 25
+Option.create! choice: "Paul Kruger & Jan Smuts", is_correct?: false, question_id: 25
+Option.create! choice: "Martinus Steyn & Paul Kruger", is_correct?: true, question_id: 25
+Option.create! choice: "Jan Smuts & Martinus Steyn", is_correct?: false, question_id: 25
+
+#Question 26
+Question.create! query: "South Africa was effectively established in 1652 when a Dutch colonial commander landed at the Cape of Good Hope and created a refreshment station for ships on the India trading route. What is the name of this first settler in South Africa?", game_id: 3, explanation: "On 6th April 1652, a Dutch settlers colony in three ships landed in the Cape. Their intention was to set up a way-station for ships travelling to and from India. Van Riebeeck was honored for his deeds by having his likeness on all South African currency from 1940 up to 1993."
+Option.create! choice: "Jan van Riebeeck", is_correct?: true, question_id: 26
+Option.create! choice: "Anton van Leeuwenhoek", is_correct?: false, question_id: 26
+Option.create! choice: "Jan van Riebeeck", is_correct?: false, question_id: 26
+Option.create! choice: "Simon van der Stel", is_correct?: false, question_id: 26
+
+#Question 27
+Question.create! query: "By the early 1800s Dutch naval and mercantile power had began to fade, and another major world power had taken control of the Cape Province in the new country developing at the southern tip of Africa. Which country sent settlers to the Cape in 1820?", game_id: 3, explanation: "The British gave lands to approximately 5,000 settlers, whose job it would be to provide agricultural products and act as a buffer between the towns and the natives, who were becoming a major headache for the colonial forces. A large number of the settlers moved to towns or further away from these zones and the British military was forced to take more control. "
+Option.create! choice: "Britain", is_correct?: true, question_id: 27
+Option.create! choice: "Spain", is_correct?: false, question_id: 27
+Option.create! choice: "France", is_correct?: false, question_id: 27
+Option.create! choice: "Germany", is_correct?: false, question_id: 27
+
+#Question 28
+Question.create! query: "In the 1830s the Dutch descendants of the first settlers in the Cape Colony, or Boers, were becoming unhappy with being under British rule. A number of families uprooted and started moving inland to be able to live freely. What was this movement called?", game_id: 3, explanation: "Large numbers of Boers packed all their possessions into ox-wagons and trekked northwards - into the unknown. There were large areas of good farmland and grazing that were open to anyone, and they took advantage of that fact. As families settled into farms, new trekkers settled deeper and deeper into the country, until there were colonies as far as the Orange Free State and the Transvaal, despite facing wild animals and hostile natives."
+Option.create! choice: "The Freedom Movement", is_correct?: false, question_id: 28
+Option.create! choice: "The Big Move", is_correct?: false, question_id: 28
+Option.create! choice: "The Great Trek", is_correct?: true, question_id: 28
+Option.create! choice: "The Treason", is_correct?: false, question_id: 28
+
+#Question 29
+Question.create! query: "By the mid-1800s in South Africa large numbers of "Voortrekkers" had settled in what is now known as the Free State and Transvaal, and were living free of British rule. All that changed in March 1886 when a prospector came across a very important reef on the Witwatersrand. What did it contain?", game_id: 3, explanation: "George Harrison was a prospector in the area where Johannesburg is now located. One Sunday he stumbled across a gold-bearing reef, and the rest is history. Along with the discovery of diamonds a few years earlier in the Kimberley area, this turned the interior of the country into a very valuable asset. The British claimed the important areas for themselves amid great unhappiness on the part of the Boer Republics."
+Option.create! choice: "Platinum", is_correct?: false, question_id: 29
+Option.create! choice: "Aluminum", is_correct?: false, question_id: 29
+Option.create! choice: "Copper", is_correct?: false, question_id: 29
+Option.create! choice: "Gold", is_correct?: true, question_id: 29
+
+#Question 30
+Question.create! query: " After years of skirmishing and open rebellion in the young South African republic, Boer president Paul Kruger declared war on the British in 1899. The British responded to the Boer guerrilla attacks by employing which method, which would be today be considered a very war crime?", game_id: 3, explanation: "In order to deprive the guerrillas of shelter and practical support, the British rounded up all the Boer women and children that they could find and confined them to camps with poor hygiene, very little food and insufficient shelter. The Boers ultimately had little choice but to surrender - on 31st May 1902. By then more than 26,000 women and children (out a total of about 127,000 interned) had died as a result of the conditions that they had to endure."
+Option.create! choice: "Concentration camps", is_correct?: true, question_id: 30
+Option.create! choice: "Mass executions", is_correct?: false, question_id: 30
+Option.create! choice: "Poison gas", is_correct?: false, question_id: 30
+Option.create! choice: "Torture", is_correct?: false, question_id: 30
+
 
 

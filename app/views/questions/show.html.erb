@@ -2,8 +2,9 @@
 
 <p><%= @question.query %></p>
 
-<ol>
-<% @options.each do |option| %>
-<li> <%= link_to(option.choice, '') %> </li>
-<% end %>
-</ol>
+<form>
+	<% @options.each do |option| %>
+		<input type="radio" name="choice" value=<%option.choice%>><%=option.choice%>
+		<br>
+	<% end %>
+</form>

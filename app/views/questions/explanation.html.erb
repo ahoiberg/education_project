@@ -1,0 +1,11 @@
+<% if @option.is_correct? %> 
+	<div id="explanation">
+		<h2><%= Correct! Good job %></h2>
+		<p> @question.explanation </p>
+	</div>
+
+<% else %> 
+	<div id= "wrong">
+		<h2> Sorry, try again! </h2>
+	</div>
+<% end %>

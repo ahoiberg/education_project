@@ -12,8 +12,7 @@ class OptionsController <ApplicationController
 	end
 
 	def check 
-		answer = @option.is_correct
-
+		@answer = @option.is_correct
 		render :partial => 'explanation', :locals => {:answer => answer}
 	end
 end

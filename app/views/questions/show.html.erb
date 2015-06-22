@@ -2,15 +2,13 @@
 
 <p><%= @question.query %></p>
 
-<form =":id/explanation" method="GET">
 	<% @options.each do |option| %>
 
 		<button type="button"  class="btn btn-default">
-		<%= link_to(option.choice, "questions/:id/explanation") %>
+		<%= link_to(option.choice, "http://localhost:3000/options/#{option.id}/show") %>
 		</button>
 		<br><br>
 
 	<% end %>
 
-</form>
 

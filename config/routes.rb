@@ -11,7 +11,9 @@ Rails.application.routes.draw do
 
    get 'games/:id/submit' => 'games#submit'
 
-   get 'questions/:id/explanation' => 'questions#explanation'
+   get 'options/:id/show' => 'options#show'
+
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

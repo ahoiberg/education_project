@@ -10,9 +10,8 @@ class OptionsController <ApplicationController
 
 		redirect_to '/games'
 	end
-#TODO (VZ) : Not sure if this is necessary, check later
-#	def check 
-#		@answer = @option.is_correct
-#		render :partial => 'explanation', :locals => {:answer => answer}
-#	end
+
+	def show
+		@option = Option.find(params["id"])
+	end
 end

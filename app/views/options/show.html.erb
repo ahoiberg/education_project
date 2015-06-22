@@ -1,7 +1,7 @@
 <% if @option.is_correct? %> 
 	<div id="explanation">
-		<h2><%= Correct! Good job %></h2>
-		<p> @question.explanation </p>
+		<h2> Correct! Good job </h2>
+		<%= @option.question.explanation %>
 	</div>
 
 <% else %> 

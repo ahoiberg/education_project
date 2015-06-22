@@ -16,4 +16,8 @@ class QuestionsController <ApplicationController
 		redirect_to '/games'
 	end
 	
+	def explanation
+		
+	end
+
 end

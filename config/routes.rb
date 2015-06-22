@@ -9,6 +9,10 @@ Rails.application.routes.draw do
 
    get 'games/:id/finish' => 'games#finish'
 
+   get 'games/:id/submit' => 'games#submit'
+
+   get 'questions/:id/explanation' => 'questions#explanation'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

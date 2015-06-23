@@ -1,16 +1,31 @@
-<div>
-<h1>Welcome to FundiLearns!</h1>
+<div class="jumbotron">
+    <h1>Welcome to FundiLearns!</h1>
+    <p>Come and know more about South Africa history!</p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
 </div>
 
-<div>
-<% @games.each_with_index do |game,index| %>
-	
-	<a href = "/questions/<%=Question.first.id+(index*10)%>">
-		<button type="button" class="btn-lg btn-default">
-			<%= game.title%>
-		</button>
-	</a>
+<!-- <div>
+    <% @games.each_with_index do |game,index| %>
+        <a href="/questions/<%=Question.first.id+(index*10)%>">
+            <button type="button" class="btn-lg btn-default">
+                <%=game.title%>
+            </button>
+        </a>
 
-	<br></br>
-	<% end %>
+        <br></br>
+        <% end %>
+</div> -->
+
+
+
+<div class="container">
+    <% @games.each_with_index do |game,index| %>
+        <a href="/questions/<%=Question.first.id+(index*10)%>">
+            <button type="button" class="btn-lg btn-default">
+                <%=game.title%>
+            </button>
+        </a>
+        <br></br>
+        <% end %>
 </div>

@@ -1,16 +1,14 @@
-.option-button{
-	display:block;
-	margin-bottom: 30px;
-}
-
 .nav {
-	margin-bottom: 200px;
 	border: none;
+	background-color: #EAFFFD;
+	font-size: 8;
 }
 
 body { 
 	width: 100%;
-	background-color: #C6BCC8;
+	background-color: #EAFFFD;
+	position: center;
+
 }
 
 div {
@@ -21,9 +19,8 @@ div {
 }
 button {
 	background-color: #FFFFFF;
-	color: #595358;
-	width: 50%;
-	white-space: normal;
+	color: #C9F0FF;
+	width: 50%
 }
 
 footer {
@@ -34,6 +31,7 @@ footer {
     margin-top: 3em;
 }
 
+
 table {
 table-layout:fixed;
 overflow: hidden; 
@@ -42,3 +40,21 @@ overflow: hidden;
 table td {
 border-color: 2px white;
 }
+
+.jumbotron {
+	height: 260px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: image-url("flag.png");
+}
+
+.container {
+  width: 100%;
+  border-radius: 50%;
+  padding: 10px;
+  position: right;
+}
+
+

@@ -4,14 +4,12 @@
 
 	<p><%= @question.query %></p>
 
-
 		<% @options.each do |option| %>
 			<a href = "/options/<%=option.id%>/show">
 				<button type="button" class="btn btn-white btn-block">
 					<%=option.choice%>
 				</button>				
 			</a>
-		
 			<br><br>
 		<% end %>
 

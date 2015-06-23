@@ -34,7 +34,7 @@ Option.create! choice: "2013", is_correct?: false, question: q2
 Option.create! choice: "1994", is_correct?: false, question: q2
 
 #Question 3
-q3 = Question.create! query: "Who directed District q9?", game: first_game, explanation: "Inspired by District q6 in Cape Town, Blomkamp directed the 2009 film that was nominated for four academy awards."
+q3 = Question.create! query: "Who directed District 9?", game: first_game, explanation: "Inspired by District 6 in Cape Town, Blomkamp directed the 2009 film that was nominated for four academy awards."
 Option.create! choice: "Ben Affleck", is_correct?: false, question: q3
 Option.create! choice: "Wes Anderson", is_correct?: false, question: q3
 Option.create! choice: "Neill Blomkamp", is_correct?: true, question: q3
@@ -45,12 +45,12 @@ q4 = Question.create! query: "Alan Paton wrote ________, a famous novel set in J
 Option.create! choice: "Lord of the Rings", is_correct?: false, question: q4
 Option.create! choice: "Catcher in the Rye", is_correct?: false, question: q4
 Option.create! choice: "A Dry White Season", is_correct?: false, question: q4
-Option.create! choice: "Cry, the Beloved Country", is_correct?: false, question: q4
+Option.create! choice: "Cry, the Beloved Country", is_correct?: true, question: q4
 
 #Question 5
 q5 = Question.create! query: " How many times has South Africa won the Rugby World Cup?", game: first_game, explanation: "South Africa won the world cup twice, in 1995 & 2007. South Africa also hosted the 1995 World Cup."
-Option.create! choice: "q5 (1967, 1987, 1995, 2007, 2011)", is_correct?: false, question: q5
-Option.create! choice: "q1 (2007)", is_correct?: false, question: q5
+Option.create! choice: "5 (1967, 1987, 1995, 2007, 2011)", is_correct?: false, question: q5
+Option.create! choice: "1 (2007)", is_correct?: false, question: q5
 Option.create! choice: "2 (1995, 2007)", is_correct?: true, question: q5
 Option.create! choice: "0", is_correct?: false, question: q5
 
@@ -59,7 +59,7 @@ q6 = Question.create! query: " Which of these famous individuals is NOT South Af
 Option.create! choice: "J.R.R. Tolkien", is_correct?: false, question: q6
 Option.create! choice: "Elon Musk", is_correct?: false, question: q6
 Option.create! choice: "Charlize Theron", is_correct?: false, question: q6
-Option.create! choice: "Liam Neeson", is_correct?: false, question: q6
+Option.create! choice: "Liam Neeson", is_correct?: true, question: q6
 
 #Question 7
 q7 = Question.create! query: " What is the music genre that became popular around Johannesburg in the 1990s?", game: first_game, explanation: "Kwaito emerged during the 1990s. It is house music combined with more traditional African music."
@@ -71,10 +71,10 @@ Option.create! choice: "Rap", is_correct?: false, question: q7
 #Question 8
 q8 = Question.create! query: "Which of these is a nickname for South Africa?", game: first_game, explanation: "Archbishop Desmond Tutu coined the term “Rainbow Nation” after the first fully democratic elections in 1994. It was used to describe the multiculturalism of the country.
 "
-Option.create! choice: "Rainbow Nation", is_correct?: false, question: q8
-Option.create! choice: "Rainbow Nation", is_correct?: false, question: q8
-Option.create! choice: "Rainbow Nation", is_correct?: false, question: q8
-Option.create! choice: "Rainbow Nation", is_correct?: false, question: q8
+Option.create! choice: "Southern Nation", is_correct?: false, question: q8
+Option.create! choice: "Rainbow Nation", is_correct?: true, question: q8
+Option.create! choice: "Heart of Africa", is_correct?: false, question: q8
+Option.create! choice: "Golden Nation", is_correct?: false, question: q8
 
 #Question 9
 q9 = Question.create! query: "What region of South Africa is best known for its wine?", game: first_game, explanation: "Stellenbosch began producing wine almost as soon as Europeans settled in Cape Town in the 1600s. For a long time, Constantia was considered to be one of the best wines in the world.
@@ -155,9 +155,9 @@ Option.create! choice: "Huts", is_correct?: false, question: q17
 q18 = Question.create! query: "How many years was Nelson Mandela in prison for? ", game: second_game, explanation: "Nelson Mandela was imprisoned for q27 years by the South African apartheid government. His crime? Standing up against a government that was committing egregious human rights abuses against black South Africans. He was released from prison in 1990 and went on to lead the way for the abolition of apartheid in 1994."
 
 Option.create! choice: "2", is_correct?: false, question: q18
-Option.create! choice: "q17", is_correct?: false, question: q18
-Option.create! choice: "q7", is_correct?: false, question: q18
-Option.create! choice: "q27", is_correct?: true, question: q18
+Option.create! choice: "17", is_correct?: false, question: q18
+Option.create! choice: "7", is_correct?: false, question: q18
+Option.create! choice: "27", is_correct?: true, question: q18
 
 #Question q19
 q19 = Question.create! query: "Who was the last president to serve during the apartheid?", game: second_game, explanation: "Frederik Willem de Klerk served from 1989 - 1994. He was the 7th and last State President under the apartheid era. De Klerk brokered the end of apartheid, South Africa's racial segregation policy, and supported the transformation of South Africa into a multi-racial democracy by entering into the negotiations that resulted in all citizens, including the country's black majority, having equal voting and other rights."

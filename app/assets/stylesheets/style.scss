@@ -4,13 +4,16 @@
 }
 
 .nav {
-	margin-bottom: 200px;
 	border: none;
+	background-color: #EAFFFD;
+	font-size: 8;
 }
 
 body { 
 	width: 100%;
-	background-color: #C6BCC8;
+	background-color: #EAFFFD;
+	position: center;
+
 }
 
 div {
@@ -21,7 +24,7 @@ div {
 }
 button {
 	background-color: #FFFFFF;
-	color: #595358;
+	color: #C9F0FF;
 	width: 50%
 }
 footer {
@@ -30,5 +33,36 @@ footer {
     height: 3em;
 	text-align: center; 
     margin-top: 3em;
+}
+
+
+
+// .navbar-no-margin-bottom {
+//   margin-bottom: 0;
+// }
+
+// .jumbotron-main {
+//   height: 500px;
+//   background-image: url(/assets/missing.png);
+//   background-attachment: fixed;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   background-position: center;
+// }
+
+.jumbotron {
+	height: 260px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: image-url("flag.png");
+}
+
+.container {
+  width: 100%;
+  border-radius: 50%;
+  padding: 10px;
+  position: right;
 }
 

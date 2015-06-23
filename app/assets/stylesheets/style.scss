@@ -1,16 +1,3 @@
-.option-button{
-	display:block;
-	margin-bottom: 30px;
-	height:200px; 
-	width: 600px;
-}
-
-.nav {
-	border: none;
-	background-color: #EAFFFD;
-	font-size: 8;
-}
-
 body { 
 	width: 100%;
 	background-color: #EAFFFD;
@@ -40,12 +27,12 @@ footer {
 
 
 table {
-table-layout:fixed;
-overflow: hidden; 
+	table-layout:fixed;
+	overflow: hidden; 
 }
 
 table td {
-border-color: 2px white;
+	border-color: 2px white;
 }
 
 p {
@@ -58,18 +45,18 @@ h1 {
 
 .jumbotron {
 	height: 260px;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: image-url("flag.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: image-url("flag.png");
 }
 
 .container {
-  width: 100%;
-  border-radius: 50%;
-  padding: 10px;
-  position: right;
+	width: 100%;
+	border-radius: 50%;
+	padding: 10px;
+	position: right;
 }
 
 .btn{
@@ -77,5 +64,14 @@ h1 {
 	font-size: 30px; 
 }
 
+.option-button{
+	display:block;
+	height:200px; 
+	width: 600px;
+}
 
-
+.nav {
+	border: none;
+	background-color: #EAFFFD;
+	font-size: 8;
+}

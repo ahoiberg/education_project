@@ -11,48 +11,22 @@
 	<% else %> 
 		<div id= "wrong">
 			<h2> Sorry, try again! </h2>
+			<a href="/questions/<%=@option.question.id%>">
 			<button type="button" class="btn btn-default">
-			<%= link_to("Try Again", :controller => 'questions', :action => 'show', :id => "#{@option.question.id}") %>
+
+		Try Again
 		</button>
-<<<<<<< HEAD
 		</div>
 	<% end %>
 	<% if (@option.question.id - Question.first.id) % 10 == 9 %>
+			<a href="/games/<%=@option.question.game.id%>/finish">
 			<button type="button" class="btn btn-default">
-				<%= link_to("Finish", :controller => 'games', :action => 'finish', :id => "#{@option.question.game.id}") %>
+				Finish
 			</button>
-			<% else %>		
+			<% else %>	
+			<a href="/questions/<%=@option.question.id+1%>">	
 		<button type="button" class="btn btn-default">
-			<%= link_to("Next Question", :controller => 'questions', :action => 'show', :id => "#{@option.question.id+1}") %>
+			Next Question
 		</button>
 	<% end %>
 </div>
-=======
-		<% else %>
-
-		<a href="/questions/<%=@option.question.id+1%>">
-			<button type="button" class="btn btn-default">
-				Next Question
-			</button>
-		</a>
-
-		<% end %>
-	</div>
-<br></br>
-
-<% else %> 
-	<div id= "wrong">
-		<h2> Sorry, try again! </h2>
-		<a href="/questions/<%=@option.question.id%>">
-			<button type="button" class="btn btn-default">
-				Sorry, try again! 
-			</button>
-		</a>
-		<a href="/questions/<%=@option.question.id+1%>">
-			<button type="button" class="btn btn-default">
-				Next Question
-			</button>
-		</a>
-	</div>
-<% end %>
->>>>>>> 0ff9eb5764eed5252f7bbff26fadc829d3b9fa5a

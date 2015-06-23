@@ -4,6 +4,7 @@ class GamesController < ApplicationController
 	end
 
 	def finish
+		@games = Game.all
 		@game = Game.find(params[:id])
 	end
 

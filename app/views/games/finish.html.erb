@@ -1,3 +1,17 @@
-<h1>Game Over</h1>
+<div><h1>Game Over</h1>
 
 <p>Your Score is: <%= @game.score%></p>
+<button type="button" class="btn btn-default">
+<%= link_to('Home', "/games") %>
+</button>
+
+<h3>Or, play another game:</h3>
+<div>
+<% @games.each_with_index do |game,index| %>
+	<button type="button" class="btn btn-default">
+		<%= link_to(game.title, "/questions/#{Question.first.id+(index*10)}") %>
+	</button>
+	<br></br>
+	<% end %>
+</div>
+</div>

@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
    root 'games#index'
 
+   get 'games' => 'games#index'
+
    get 'questions/:id' => 'questions#show'
 
    get 'games/:id/finish' => 'games#finish'

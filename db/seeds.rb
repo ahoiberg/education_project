@@ -27,7 +27,7 @@ Option.create! choice: "An Oscar-award winning film set in Cape Town", is_correc
 Option.create! choice: "the major highway between Cape Town and Johannesburg", is_correct?: false, question: q1
 
 #Question 2
-q2 = Question.create! query: "What year did South Africa host the World Cup?", game: first_game, explanation: "the 2010 world cup took place in stadiums across South Africa. Spain won the final, beating the Netherlands q1-0."
+q2 = Question.create! query: "What year did South Africa host the World Cup?", game: first_game, explanation: "the 2010 world cup took place in stadiums across South Africa. Spain won the final, beating the Netherlands 1-0."
 Option.create! choice: "2010", is_correct?: true, question: q2
 Option.create! choice: "2002", is_correct?: false, question: q2
 Option.create! choice: "2013", is_correct?: false, question: q2
@@ -89,7 +89,7 @@ q10 = Question.create! query: "What was the first South African film to win an O
 Option.create! choice: "Invictus", is_correct?: false, question: q10
 Option.create! choice: "Blood Diamond", is_correct?: false, question: q10
 Option.create! choice: "Tsotsi", is_correct?: true, question: q10
-Option.create! choice: "District q9", is_correct?: false, question: q10
+Option.create! choice: "District 9", is_correct?: false, question: q10
 
 
 #Game 2
@@ -112,7 +112,7 @@ Option.create! choice: "create a united Africa ", is_correct?: false, question: 
 Option.create! choice: "promote homeland areas for Blacks", is_correct?: false, question: q12
 
 #Question q13
-q13 = Question.create! query: "What was the name of African National Congress’ (ANC) opposition?", game: second_game, explanation: "The National Party was a political party in South Africa founded in 1915 and was the governing party of the country from q4 June 1948 until q9 May 1994. Members of the National Party were sometimes known as Nationalists or Nats. The policies of the party included apartheid, the establishment of a republic, and the promotion of Afrikaner culture."
+q13 = Question.create! query: "What was the name of African National Congress’ (ANC) opposition?", game: second_game, explanation: "The National Party was a political party in South Africa founded in 1915 and was the governing party of the country from 4 June 1948 until 9 May 1994. Members of the National Party were sometimes known as Nationalists or Nats. The policies of the party included apartheid, the establishment of a republic, and the promotion of Afrikaner culture."
 
 Option.create! choice: "The other ANC party	", is_correct?: false, question: q13  
 Option.create! choice: "Blue party", is_correct?: false, question: q13  
@@ -152,7 +152,7 @@ Option.create! choice: "Outskirts", is_correct?: false, question: q17
 Option.create! choice: "Huts", is_correct?: false, question: q17
 
 #Question q18
-q18 = Question.create! query: "How many years was Nelson Mandela in prison for? ", game: second_game, explanation: "Nelson Mandela was imprisoned for q27 years by the South African apartheid government. His crime? Standing up against a government that was committing egregious human rights abuses against black South Africans. He was released from prison in 1990 and went on to lead the way for the abolition of apartheid in 1994."
+q18 = Question.create! query: "How many years was Nelson Mandela in prison for? ", game: second_game, explanation: "Nelson Mandela was imprisoned for 27 years by the South African apartheid government. His crime? Standing up against a government that was committing egregious human rights abuses against black South Africans. He was released from prison in 1990 and went on to lead the way for the abolition of apartheid in 1994."
 
 Option.create! choice: "2", is_correct?: false, question: q18
 Option.create! choice: "17", is_correct?: false, question: q18
@@ -168,7 +168,7 @@ Option.create! choice: "P.W Botha", is_correct?: false, question: q19
 Option.create! choice: "Johannes de Klerk", is_correct?: false, question: q19
 
 #Question q20
-q20 = Question.create! query: "What year did the apartheid end?", game: second_game, explanation: "partheid came to a definitive end on q27 April 1994, when South African people of all races were able to vote for the first time in a national election."
+q20 = Question.create! query: "What year did the apartheid end?", game: second_game, explanation: "partheid came to a definitive end on 27 April 1994, when South African people of all races were able to vote for the first time in a national election."
 
 Option.create! choice: "1994", is_correct?: true, question: q20
 Option.create! choice: "1953", is_correct?: false, question: q20
@@ -179,7 +179,7 @@ Option.create! choice: "1989", is_correct?: false, question: q20
 third_game = Game.create! title: "South African History", score: 0
 
 #Question q21
-q21 = Question.create! query: "What was the official flag of the Zuid-Afrikaanse Republiek from 1858 until 1902?", game: third_game, explanation: "The Transvaal Vierkleur was designed by Dirk van der Hoff and contained a green vertical stripe and third_game horizontal stripes of red, white and blue. The flag was hoisted for the first time on q6 January 1857 in Potchefstroom. The flag was later incorporated into the official flag of the Union and the Republic of South Africa until 1994 when the official flag was changed. Vierkleur literally means \"Four Colors\". The flag was the subject of a poem called \"Die Vierkleur van Transvaal\" by S.J. du Toit."
+q21 = Question.create! query: "What was the official flag of the Zuid-Afrikaanse Republiek from 1858 until 1902?", game: third_game, explanation: "The Transvaal Vierkleur was designed by Dirk van der Hoff and contained a green vertical stripe and third_game horizontal stripes of red, white and blue. The flag was hoisted for the first time on 6 January 1857 in Potchefstroom. The flag was later incorporated into the official flag of the Union and the Republic of South Africa until 1994 when the official flag was changed. Vierkleur literally means \"Four Colors\". The flag was the subject of a poem called \"Die Vierkleur van Transvaal\" by S.J. du Toit."
 Option.create! choice: "The Transvaal Vierkleur", is_correct?: true, question: q21
 Option.create! choice: "The Boeremag Trial for Treason", is_correct?: false, question: q21
 Option.create! choice: "Advocate Barbie’s Trial", is_correct?: false, question: q21

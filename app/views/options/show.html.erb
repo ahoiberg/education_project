@@ -2,6 +2,7 @@
 	<div id="explanation">
 		<h2> Correct! Good job </h2>
 		<%= @option.question.explanation %>
+
 		<br></br>
 		<% if (@option.question.id - Question.first.id) % 10 == 9 %>
 		<button type="button" class="btn btn-default">
@@ -14,6 +15,7 @@
 		<% end %>
 	</div>
 <br></br>
+
 <% else %> 
 	<div id= "wrong">
 		<h2> Sorry, try again! </h2>

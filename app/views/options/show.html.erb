@@ -9,9 +9,13 @@
 			<%= link_to("Finish", :controller => 'games', :action => 'finish', :id => "#{@option.question.game.id}") %>
 		</button>
 		<% else %>
-		<button type="button" class="btn btn-default">
-		<%= link_to("Next Question", :controller => 'questions', :action => 'show', :id => "#{@option.question.id+1}") %>
-		</button>
+
+		<a href="/questions/<%=@option.question.id+1%>">
+			<button type="button" class="btn btn-default">
+				Next Question
+			</button>
+		</a>
+
 		<% end %>
 	</div>
 <br></br>
@@ -19,11 +23,15 @@
 <% else %> 
 	<div id= "wrong">
 		<h2> Sorry, try again! </h2>
-		<button type="button" class="btn btn-default">
-		<%= link_to("Try Again", :controller => 'questions', :action => 'show', :id => "#{@option.question.id}") %>
-	</button>
-	<button type="button" class="btn btn-default">
-		<%= link_to("Next Question", :controller => 'questions', :action => 'show', :id => "#{@option.question.id+1}") %>
-	</button>
+		<a href="/questions/<%=@option.question.id%>">
+			<button type="button" class="btn btn-default">
+				Sorry, try again! 
+			</button>
+		</a>
+		<a href="/questions/<%=@option.question.id+1%>">
+			<button type="button" class="btn btn-default">
+				Next Question
+			</button>
+		</a>
 	</div>
 <% end %>

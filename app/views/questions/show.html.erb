@@ -6,13 +6,12 @@
 
 
 		<% @options.each do |option| %>
-			<div class="button-choice">
-				<a href = "http://localhost:3000/options/<%=option.id%>/show">
-					<button type="button" class="btn btn-white btn-block">
-						<%=option.choice%>
-					</button>
-				</a>
-			</div>
+			<a href = "http://localhost:3000/options/<%=option.id%>/show">
+				<button type="button" class="btn btn-white btn-block">
+					<%=option.choice%>
+				</button>				
+			</a>
+		
 			<br><br>
 		<% end %>
 

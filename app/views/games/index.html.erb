@@ -5,7 +5,7 @@
 <div>
 <% @games.each_with_index do |game,index| %>
 	
-	<a href = "/questions/<%=Question.first.id+(index*10)%>"
+	<a href = "/questions/<%=Question.first.id+(index*10)%>">
 		<button type="button" class="btn-lg btn-default">
 			<%= game.title%>
 		</button>

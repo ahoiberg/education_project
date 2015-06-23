@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html>
+<header>
+	<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default">
+  	<%= link_to("About Us", "/static_pages/about")%>
+  </button>
+  <button type="button" class="btn btn-default">
+  	<%= link_to("Contact Us", "/static_pages/contact")%>
+  </button>
+  <button type="button" class="btn btn-default">
+  	<%= link_to("How to Play", "/static_pages/play")%>
+  </button>
+</div>
+</header>
 <head>
   <title>FundiLearns</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>

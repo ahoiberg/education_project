@@ -1,29 +1,28 @@
-<% if @option.is_correct? %> 
-	<div id="explanation">
-		<h2> Correct! Good job </h2>
-		<%= @option.question.explanation %>
+<div>
+	<% if @option.is_correct? %> 
+		<div id="explanation">
+			<h2> Correct! Good job </h2>
+			<%= @option.question.explanation %>
+			<% @option.question.game.score += 1 %>
+			<%= @option.question.game.score %>
+		</div>
+	<br></br>
 
-		<br></br>
-		<% if (@option.question.id - Question.first.id) % 10 == 9 %>
-		<button type="button" class="btn btn-default">
-			<%= link_to("Finish", :controller => 'games', :action => 'finish', :id => "#{@option.question.game.id}") %>
+	<% else %> 
+		<div id= "wrong">
+			<h2> Sorry, try again! </h2>
+			<button type="button" class="btn btn-default">
+			<%= link_to("Try Again", :controller => 'questions', :action => 'show', :id => "#{@option.question.id}") %>
 		</button>
-		<% else %>
+		</div>
+	<% end %>
+	<% if (@option.question.id - Question.first.id) % 10 == 9 %>
+			<button type="button" class="btn btn-default">
+				<%= link_to("Finish", :controller => 'games', :action => 'finish', :id => "#{@option.question.game.id}") %>
+			</button>
+			<% else %>		
 		<button type="button" class="btn btn-default">
-		<%= link_to("Next Question", :controller => 'questions', :action => 'show', :id => "#{@option.question.id+1}") %>
+			<%= link_to("Next Question", :controller => 'questions', :action => 'show', :id => "#{@option.question.id+1}") %>
 		</button>
-		<% end %>
-	</div>
-<br></br>
-
-<% else %> 
-	<div id= "wrong">
-		<h2> Sorry, try again! </h2>
-		<button type="button" class="btn btn-default">
-		<%= link_to("Try Again", :controller => 'questions', :action => 'show', :id => "#{@option.question.id}") %>
-	</button>
-	<button type="button" class="btn btn-default">
-		<%= link_to("Next Question", :controller => 'questions', :action => 'show', :id => "#{@option.question.id+1}") %>
-	</button>
-	</div>
-<% end %>
+	<% end %>
+</div>

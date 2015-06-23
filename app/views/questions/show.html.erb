@@ -1,23 +1,15 @@
-<head>
-<style>
+<h1>Question <%=@question.id%Question.first.id + 1 %></h1>
 
-</style>
-</head>
+<p><%= @question.query %></p>
 
-<body>
-	<h1>Question <%=@question.id%Question.first.id + 1 %></h1>
+<div class="options">
+<% @options.each do |option| %>
 
-	<p><%= @question.query %></p>
+<button type="button"  class="btn btn-white btn-block">
+<%= link_to(option.choice, "http://localhost:3000/options/#{option.id}/show") %>
+</button>
+<br><br>
 
-	<div class="options">
-		<% @options.each do |option| %>
-
-			<button type="button"  class="btn btn-white btn-block">
-			<%= link_to(option.choice, "http://localhost:3000/options/#{option.id}/show") %>
-			</button>
-			<br><br>
-
-		<% end %>
-	</div>
-</body>
+<% end %>
+</div>
 

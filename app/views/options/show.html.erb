@@ -2,7 +2,20 @@
 	<div id="explanation">
 		<h2> Correct! Good job </h2>
 		<%= @option.question.explanation %>
+<<<<<<< HEAD
 
+=======
+		<br></br>
+		<%= @option.question.id - Question.first.id %>
+		<br></br>
+		<% if (@option.question.id - Question.first.id) % 10 == 9 %>
+			<%= link_to("Finish", :controller => 'games', :action => 'finish', :id => "#{@option.question.game.id}") %>
+		<% else %>
+		<%= link_to("Next Question", :controller => 'questions', :action => 'show', :id => "#{@option.question.id+1}") %>
+		<% end %>
+	</div>
+<br></br>
+>>>>>>> 9f74d8bd5d70c4894728d464d007f06da114481c
 <% else %> 
 	<div id= "wrong">
 		<h2> Sorry, try again! </h2>

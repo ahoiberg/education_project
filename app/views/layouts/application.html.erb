@@ -1,26 +1,6 @@
 <!DOCTYPE html>
 <html>
 <header>
-	<div class="row" aria-label="...">
-    <a href="/static_pages/about">
-      <button type="button" class="btn btn-default">
-        About Us
-      </button>
-    </a>
-
-    <a href="/static_pages/contact">
-      <button type="button" class="btn btn-default">
-        Contact Us
-      </button>
-    </a>
-
-    <a href="/static_pages/play">
-      <button type="button" class="btn btn-default">
-      	How to Play
-      </button>
-    </a>
-  </div>
-
 </header>
 <head>
   <title>FundiLearns</title>
@@ -29,7 +9,7 @@
   <%= csrf_meta_tags %> 
 </head>
 <body>
-
+  <%= render partial: "nav" %>
   <%= yield %>
 
 

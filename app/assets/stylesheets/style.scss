@@ -1,4 +1,4 @@
-.button-choice{
+.option-button{
 	display:block;
 	margin-bottom: 30px;
 }
@@ -23,6 +23,7 @@ button {
 	background-color: #FFFFFF;
 	color: #595358;
 	width: 50%;
+	white-space: normal;
 }
 
 footer {
@@ -33,3 +34,11 @@ footer {
     margin-top: 3em;
 }
 
+table {
+table-layout:fixed;
+overflow: hidden; 
+}
+
+table td {
+border-color: 2px white;
+}

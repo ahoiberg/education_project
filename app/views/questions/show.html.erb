@@ -4,14 +4,50 @@
 
 	<p><%= @question.query %></p>
 
-		<% @options.each do |option| %>
-			<a href = "/options/<%=option.id%>/show">
-				<button type="button" class="btn btn-white btn-block">
-					<%=option.choice%>
-				</button>				
-			</a>
-			<br><br>
-		<% end %>
+	<table class="fixed" table style="width:100%">
+		<col width="400px" />
+		<tr>
+			<td>
+				<a href = "/options/<%=@options[0].id%>/show">
+					<div class="option-botton"><button type="button" class="btn btn-white btn-lg" style="white-space: normal;">
+						<%=@options[0].choice%>
+					</button></div>
+				</a>
+			</td>
 
+			<td>
+				<a href = "/options/<%=@options[1].id%>/show">
+					<div class="option-botton"><button type="button" class="btn btn-white btn-lg" style="white-space: normal;">
+						<%=@options[1].choice%>
+					</button></div>
+				</a>
+			</td>
+
+		</tr>
+		
+		<tr>
+			<td> </td>
+			<td> </td>
+		</tr>
+
+		<col width="400px" />
+		<tr>
+			<td>
+				<a href = "/options/<%=@options[2].id%>/show">
+					<div class="option-botton"><button type="button" class="btn btn-white btn-lg" style="white-space: normal;">
+						<%=@options[2].choice%>
+					</button></div>
+				</a>
+			</td>
+
+			<td>
+				<a href = "/options/<%=@options[3].id%>/show">
+					<div class="option-botton"><button type="button" class="btn btn-white btn-lg" style="white-space: normal;">
+						<%=@options[3].choice%>
+					</button></div>
+				</a>
+			</td>
+		</tr>
+	</table>
 
 </div>

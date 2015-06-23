@@ -144,7 +144,7 @@ Option.create! choice: "Nelson Mandela was elected President", is_correct?: true
 Option.create! choice: "the majority of white South Africans returned to Europe", is_correct?: false, question: q16
 
 #Question q17
-q17 = Question.create! query: " ", game: second_game, explanation: "During apartheid, many blacks found work on white-owned mines, farms, or as servants. In the cities blacks had to live in separate areas called townships. These townships were little more than slums with no running water and tiny houses made of scraps of wood and metal. "
+q17 = Question.create! query: "What were the areas that black people lived in during the apartheid called?", game: second_game, explanation: "During apartheid, many blacks found work on white-owned mines, farms, or as servants. In the cities blacks had to live in separate areas called townships. These townships were little more than slums with no running water and tiny houses made of scraps of wood and metal. "
 
 Option.create! choice: "Projects", is_correct?: false, question: q17
 Option.create! choice: "Townships", is_correct?: true, question: q17

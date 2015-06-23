@@ -1,5 +1,5 @@
 body { 
-	width: 70%;
+	width: 100%;
 	background-color: #C6BCC8;
 }
 div {
@@ -13,9 +13,11 @@ button {
 	color: #595358;
 }
 footer {
-	text-align: center; 
-	clear: both;
+    clear: both;
     position: relative;
+    z-index: 10;
     height: 3em;
-    margin-top: 3em;
+    margin-top: -3em;
+	text-align: center; 
+
 }

@@ -4,9 +4,13 @@
 
 <div>
 <% @games.each_with_index do |game,index| %>
-	<button type="button" class="btn-lg btn-default">
-		<%= link_to(game.title, "/questions/#{Question.first.id+(index*10)}") %>
-	</button>
+	
+	<a href = "/questions/<%=Question.first.id+(index*10)%>">
+		<button type="button" class="btn-lg btn-default">
+			<%= game.title%>
+		</button>
+	</a>
+
 	<br></br>
 	<% end %>
 </div>

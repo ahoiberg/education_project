@@ -4,15 +4,16 @@
 
 	<p><%= @question.query %></p>
 
-	<div class="button-container">
-	<% @options.each do |option| %>
 
-		<button type="button"  class="btn btn-white btn-block">
-		<%= link_to(option.choice, "http://localhost:3000/options/#{option.id}/show") %>
-		</button>
-		<br><br>
+		<% @options.each do |option| %>
+			<a href = "/options/<%=option.id%>/show">
+				<button type="button" class="btn btn-white btn-block">
+					<%=option.choice%>
+				</button>				
+			</a>
+		
+			<br><br>
+		<% end %>
 
-	<% end %>
-	</div>
 
 </div>

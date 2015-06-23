@@ -1,4 +1,4 @@
-.button-choice{
+.option-button{
 	display:block;
 	margin-bottom: 30px;
 }
@@ -27,6 +27,7 @@ button {
 	color: #C9F0FF;
 	width: 50%
 }
+
 footer {
 	clear: both;
     position: relative;
@@ -36,19 +37,14 @@ footer {
 }
 
 
+table {
+table-layout:fixed;
+overflow: hidden; 
+}
 
-// .navbar-no-margin-bottom {
-//   margin-bottom: 0;
-// }
-
-// .jumbotron-main {
-//   height: 500px;
-//   background-image: url(/assets/missing.png);
-//   background-attachment: fixed;
-//   background-size: contain;
-//   background-repeat: no-repeat;
-//   background-position: center;
-// }
+table td {
+border-color: 2px white;
+}
 
 .jumbotron {
 	height: 260px;
@@ -66,3 +62,7 @@ footer {
   position: right;
 }
 
+.btn{
+	font-size: 30px; 
+	border-radius: 20px;
+}

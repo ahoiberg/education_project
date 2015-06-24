@@ -74,18 +74,8 @@ h2 {
 	position: right;
 }
 
-.btn{
-	border-radius: 20px;
-	font-size: 30px; 
-	color: gray;
-}
-
 .btn-lg{
 	background-color: #D6F6DD;
-}
-
-.btn-primary {
-	background-color: #286090;
 }
 
 .option-button{
@@ -103,4 +93,13 @@ h2 {
 	font-size: 8;
 }
 
+.btn{
+	border-radius: 20px;
+	font-size: 30px; 
+	color: gray;
+	background-color: #D6F6DD
+}
 
+.btn-primary {
+	background-color: #286090;
+}

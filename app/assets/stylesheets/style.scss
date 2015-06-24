@@ -14,7 +14,8 @@ div {
 button {
 	background-color: #FFFFFF;
 	color: #C9F0FF;
-	width: 50%
+	width: 50%;
+	color: black;
 }
 
 footer {
@@ -30,6 +31,8 @@ footer {
 table {
 	table-layout:fixed;
 	overflow: hidden; 
+	margin-left: auto;
+	margin-right: auto;
 }
 
 table td {

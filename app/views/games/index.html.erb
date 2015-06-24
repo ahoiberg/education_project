@@ -1,16 +1,18 @@
 <div class="jumbotron">
-    <h1>Are you a TriviaFundi?</h1>
-    <p>Come and know more about South Africa history!</p>
+    <h1><b>Are you a TriviaFundi?</b></h1>
+    <h2><b>Come and learn more about South Africa history!</b></h2>
     <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 </div>
 
-<div class="container">
+<div class= "home_button">
     <% @games.each_with_index do |game,index| %>
         <a href="/questions/<%=Question.first.id+(index*10)%>">
             <button type="button" class="btn-lg btn-default">
                 <%=game.title%>
             </button>
         </a>
+
         <br></br>
         <% end %>
 </div>
+

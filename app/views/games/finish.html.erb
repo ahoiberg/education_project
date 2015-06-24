@@ -8,7 +8,7 @@
 <h3>Or, play another game:</h3>
 <div>
 <% @games.each do |game| %>
-		<a href="/games/<%=@game.id%>/reset_score">
+		<a href="/games/<%=game.id%>/reset_score">
 	<button type="button" class="btn btn-default">
 		<strong><%=game.title%></strong>
 	</button>

@@ -13,8 +13,6 @@ Rails.application.routes.draw do
 
    get 'games' => 'games#index'
 
-   get 'questions/:id' => 'questions#show'
-
    get 'games/:id/finish' => 'games#finish'
 
    get 'games/:id/submit' => 'games#submit'
@@ -22,6 +20,8 @@ Rails.application.routes.draw do
    get 'games/:id/update_score' => 'games#update_score'
 
    get 'games/:id/reset_score' => 'games#reset_score'
+
+   get 'questions/:id' => 'questions#show'
 
    get 'options/:id/show' => 'options#show'
 

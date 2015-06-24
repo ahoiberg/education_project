@@ -16,11 +16,11 @@ class GamesController < ApplicationController
 
 	def reset_score
 		@game = Game.find(params[:id])
-		@first_question = @game.questions.first.id
+		@first_question = @game.questions.first
 		@game.score = 0
 		@game.save
 
-		redirect_to "/questions/#{@first_question}/show"
+		redirect_to "/questions/#{@first_question.id}"
 	end
 
 	def finish

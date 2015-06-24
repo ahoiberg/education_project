@@ -1,3 +1,6 @@
+a{
+	display: block;
+}
 table {
 	table-layout:fixed;
 	overflow: hidden; 
@@ -5,24 +8,21 @@ table {
 
 table td {
 	border-color: 2px white;
+	margin:auto;
 }
 
 p {
 	font-size: 20px;
 }
-.option-button{
-	display:block;
-	height:200px; 
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: auto;
+
+tbody {
+	margin: auto;
 }
 
 .box-pop {
-  width: 465px;
-  height: 330px;
-  background: url("table-mountain.jpg");
+  width: 430px;
+  height: 310px;
+  background: url("pop-culture.jpg");
   background-size: cover;
   border-radius: 80px;
   margin-left: auto;
@@ -30,8 +30,8 @@ p {
 }
 
 .box-apartheid {
-  width: 465px;
-  height: 330px;
+  width: 430px;
+  height: 310px;
   background: url("apartheid1.png");
   background-size: cover;
   border-radius: 80px;
@@ -40,9 +40,9 @@ p {
 }
 
 .box-history {
-  width: 465px;
-  height: 330px;
-  background: url("history.png");
+  width: 430px;
+  height: 310px;
+  background: url("history1.jpg");
   background-size: cover;
   border-radius: 80px;
   margin-left: auto;
@@ -51,8 +51,8 @@ p {
 
 .overlay {
   background: rgba(0, 0, 0, 0.75);
-  width: 465px;
-  height: 330px;
+  width: 430px;
+  height: 310px;
   text-align: center;
   opacity: 0;
   -webkit-transition: opacity .25s ease;
@@ -61,10 +61,23 @@ p {
    padding: 130px 0 0px 0;
 }
 
-.btn{
-	border-radius: 20px;
-	font-size: 30px; 
-	color: white;
-	background-color: #D6F6DD
+.btn-primary {
+	background-color: #286090;
 }
 
+.obtn{
+	border-radius: 20px;
+	font-size: 30px; 
+	display:block;
+	height:200px; 
+	width: 580px;
+	background-color: white;
+}
+
+.question-page {
+	position: center;
+	background-color: #CCC7B9;
+	width: 90%;
+	margin: auto;
+	border-radius: 5%;
+}

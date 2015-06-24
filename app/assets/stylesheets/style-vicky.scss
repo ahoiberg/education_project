@@ -20,30 +20,28 @@ tbody {
 }
 
 .box-pop {
-  width: 430px;
-  height: 310px;
   background: url("pop-culture.jpg");
   background-size: cover;
+  background-position: center;
   border-radius: 80px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .box-apartheid {
-  width: 430px;
-  height: 310px;
   background: url("apartheid1.png");
   background-size: cover;
+  background-position: center;
+  background-position: center;
   border-radius: 80px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .box-history {
-  width: 430px;
-  height: 310px;
   background: url("history1.jpg");
   background-size: cover;
+  background-position: center;
   border-radius: 80px;
   margin-left: auto;
   margin-right: auto;
@@ -51,8 +49,6 @@ tbody {
 
 .overlay {
   background: rgba(0, 0, 0, 0.75);
-  width: 430px;
-  height: 310px;
   text-align: center;
   opacity: 0;
   -webkit-transition: opacity .25s ease;

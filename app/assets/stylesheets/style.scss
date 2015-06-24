@@ -1,6 +1,6 @@
 body { 
 	width: 100%;
-	background-color: #EAFFFD;
+	background-color: #FFFFFF;
 	position: center;
 	font-family: 'Infinity';
 }
@@ -12,10 +12,9 @@ div {
 	padding: 25px;
 }
 button {
-	background-color: #FFFFFF;
+	background-color: #D6F6DD;
 	color: #C9F0FF;
 	width: 50%;
-	color: black;
 }
 
 footer {
@@ -31,7 +30,6 @@ footer {
 table {
 	table-layout:fixed;
 	overflow: hidden; 
-	margin: auto;
 }
 
 table td {
@@ -43,7 +41,13 @@ p {
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 70px;
+	color: black;
+}
+
+h2 {
+	font-size: 40px;
+	color: black;
 }
 
 .question-page{
@@ -55,7 +59,7 @@ h1 {
 }
 
 .jumbotron {
-	height: 260px;
+	height: 380px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -73,17 +77,30 @@ h1 {
 .btn{
 	border-radius: 20px;
 	font-size: 30px; 
+	color: gray;
+}
+
+.btn-lg{
+	background-color: #D6F6DD;
+}
+
+.btn-primary {
+	background-color: #286090;
 }
 
 .option-button{
 	display:block;
 	height:200px; 
 	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: auto;
 }
 
 .nav {
 	border: none;
-	background-color: #EAFFFD;
+	background-color: #FFFFFF;
 	font-size: 8;
 }
+
 

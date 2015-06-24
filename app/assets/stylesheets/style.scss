@@ -26,20 +26,6 @@ footer {
 	font-family: 'Infinity';
 }
 
-
-table {
-	table-layout:fixed;
-	overflow: hidden; 
-}
-
-table td {
-	border-color: 2px white;
-}
-
-p {
-	font-size: 20px;
-}
-
 .question-page{
 	position: center;
 	background-color: #CCC7B9;
@@ -47,6 +33,7 @@ p {
 	width: 90%;
 	margin: auto;
 }
+
 .static-page{
 	position: center;
 	background-color: #CCC7B9;
@@ -77,75 +64,14 @@ p {
 	background-color: #D6F6DD;
 }
 
-.option-button{
-	display:block;
-	height:200px; 
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: auto;
-}
-
 .nav {
 	border: none;
 	background-color: #FFFFFF;
 	font-size: 8;
 }
 
-
-.btn{
-	border-radius: 20px;
-	font-size: 30px; 
-	color: white;
-	background-color: #D6F6DD
-}
-
 .btn-primary {
 	background-color: #286090;
-}
-
-
-
-.box-pop {
-  width: 465px;
-  height: 330px;
-  background: url("table-mountain.jpg");
-  background-size: cover;
-  border-radius: 80px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.box-apartheid {
-  width: 465px;
-  height: 330px;
-  background: url("apartheid1.png");
-  background-size: cover;
-  border-radius: 80px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.box-history {
-  width: 465px;
-  height: 330px;
-  background: url("history.jpg");
-  background-size: cover;
-  border-radius: 80px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.overlay {
-  background: rgba(0, 0, 0, 0.75);
-  width: 465px;
-  height: 330px;
-  text-align: center;
-  opacity: 0;
-  -webkit-transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease;
-   border-radius: 80px;
-   padding: 130px 0 0px 0;
 }
 
 .box-pop:hover .overlay {

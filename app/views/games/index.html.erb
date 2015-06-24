@@ -1,7 +1,7 @@
 <div class="jumbotron">
     <h1><b>Are you a TriviaFundi?</b></h1>
     <h2><b>Come and learn more about South Africa!</b></h2>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <a class="btn btn-primary btn-lg" href="static_pages/about" role="button">Learn more</a>
 </div>
 
 <!-- <div class= "home_button">
@@ -23,21 +23,21 @@
     <div class="col-xs-6 col-sm-4">
         <div class="box">
           <div class="overlay">
-            <span class="question_type"><a href="/questions/21">History</a></span>
+            <span class="question_type"><a href="/games/<%=Game.first.id%>/reset_score">Pop Culture</a></span>
           </div>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4">
         <div class="box">
           <div class="overlay">
-            <span class="question_type"><a href="/questions/11">Apartheid</a></span>
+            <span class="question_type"><a href="/games/<%=Game.first.id + 1%>/reset_score">Apartheid</a></span>
           </div>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4">
         <div class="box">
           <div class="overlay">
-            <span class="question_type"><a href="/questions/1">Pop Culture</a></span>
+            <span class="question_type"><a href="/games/<%=Game.last.id%>/reset_score">History</a></span>
           </div>
         </div>
     </div>

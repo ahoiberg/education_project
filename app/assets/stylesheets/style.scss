@@ -2,7 +2,7 @@ body {
 	width: 100%;
 	background-color: #EAFFFD;
 	position: center;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Infinity';
 }
 
 div {
@@ -24,15 +24,14 @@ footer {
     height: 3em;
 	text-align: center; 
     margin-top: 3em;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Infinity';
 }
 
 
 table {
 	table-layout:fixed;
 	overflow: hidden; 
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 }
 
 table td {
@@ -50,10 +49,9 @@ h1 {
 .question-page{
 	position: center;
 	background-color: #CCC7B9;
-	border-radius: 5%;
+	border-radius: 15%;
 	width: 90%;
-	margin-right: auto;
-	margin-left: auto;
+	margin: auto;
 }
 
 .jumbotron {

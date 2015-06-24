@@ -7,10 +7,12 @@
 
 <h3>Or, play another game:</h3>
 <div>
-<% @games.each_with_index do |game,index| %>
+<% @games.each do |game| %>
+		<a href="/games/<%=@game.id%>/reset_score">
 	<button type="button" class="btn btn-default">
-		<%= link_to(game.title, "/questions/#{Question.first.id+(index*10)}") %>
+		<strong><%=game.title%></strong>
 	</button>
+	</a>
 	<br></br>
 	<% end %>
 </div>

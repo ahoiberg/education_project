@@ -1,3 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "style";
+@font-face {
+    font-family: "Infinity";
+    src: url(/assets/Infinity.ttf) format("truetype");
+}

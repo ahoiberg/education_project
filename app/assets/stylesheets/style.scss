@@ -2,7 +2,7 @@ body {
 	width: 100%;
 	background-color: #EAFFFD;
 	position: center;
-	font-family: 'Londrina Solid'
+	font-family: 'Infinity';
 
 }
 
@@ -24,7 +24,7 @@ footer {
     height: 3em;
 	text-align: center; 
     margin-top: 3em;
-    font-family: 'Londrina'
+    font-family: 'Infinity';
 }
 
 
@@ -43,6 +43,13 @@ p {
 
 h1 {
 	font-size: 50px;
+}
+
+.question-page{
+	position: center;
+	background-color: #CAD49D;
+	border-radius: 5%;
+	width: 90%;
 }
 
 .jumbotron {

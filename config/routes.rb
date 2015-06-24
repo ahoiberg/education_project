@@ -19,6 +19,9 @@ Rails.application.routes.draw do
 
    get 'games/:id/submit' => 'games#submit'
 
+   #post 'games/:id/update_score' => 'games#update_score'
+   get 'games/:id/update_score' => 'games#update_score'
+
    get 'options/:id/show' => 'options#show'
 
 

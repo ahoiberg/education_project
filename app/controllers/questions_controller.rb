@@ -3,6 +3,8 @@ class QuestionsController <ApplicationController
 	def show
 		@question = Question.find(params[:id])
 		@options = @question.options
+		@game = @question.game
+		@question_number = @game.questions.index(@question) + 1
 	end
 
 	def new

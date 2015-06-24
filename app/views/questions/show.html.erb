@@ -1,6 +1,6 @@
 <div class="question-page">
 	
-	<h1>Question <%=@question.id%Question.first.id + 1 %></h1>
+	<h1>Question <%=@question_number%></h1>
 
 	<p><%= @question.query %></p>
 
@@ -8,7 +8,8 @@
 		<tr>
 			<td>
 				<div class="option-botton">
-					<a href = "/options/<%=@options[0].id%>/show">
+					<a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[0].id%>">
+
 						<button type="button" class="btn btn-white" style="white-space: normal; height:200px; width: 600px;">
 							<strong><%=@options[0].choice%></strong>
 						</button>
@@ -18,7 +19,7 @@
 
 			<td>
 				<div class="option-botton">
-					<a href = "/options/<%=@options[1].id%>/show">
+					<a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[1].id%>">
 						<button type="button" class="btn btn-white" style="white-space: normal; height:200px; width: 600px;">
 							<strong><%=@options[1].choice%></strong>
 						</button>
@@ -31,7 +32,7 @@
 		<tr>
 			<td>
 				<div class="option-botton">
-					<a href = "/options/<%=@options[2].id%>/show">
+					<a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[2].id%>">
 						<button type="button" class="btn btn-white" style="white-space: normal; height:200px; width: 600px;">
 							<strong><%=@options[2].choice%></strong>
 						</button>
@@ -41,7 +42,7 @@
 
 			<td>
 				<div class="option-botton">
-					<a href = "/options/<%=@options[3].id%>/show">
+					<a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[3].id%>">
 						<button type="button" class="btn btn-white" style="white-space: normal; height:200px; width: 600px;">
 							<strong><%=@options[3].choice%></strong>
 						</button>

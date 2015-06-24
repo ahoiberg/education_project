@@ -3,5 +3,7 @@
 @import "style";
 @font-face {
     font-family: "Infinity";
-    src: url(/assets/fonts/Infinity.ttf) format("truetype");
+    src: url(font-path('Infinity.ttf')) format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }

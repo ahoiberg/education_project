@@ -40,16 +40,6 @@ p {
 	font-size: 20px;
 }
 
-h1 {
-	font-size: 70px;
-	color: black;
-}
-
-h2 {
-	font-size: 40px;
-	color: white;
-}
-
 .question-page{
 	position: center;
 	background-color: #CCC7B9;
@@ -117,7 +107,7 @@ h2 {
 
 
 .box-pop {
-  width: 360px;
+  width: 465px;
   height: 330px;
   background: url("table-mountain.jpg");
   background-size: cover;
@@ -127,9 +117,9 @@ h2 {
 }
 
 .box-apartheid {
-  width: 360px;
+  width: 465px;
   height: 330px;
-  background: url("table-mountain.jpg");
+  background: url("apartheid1.png");
   background-size: cover;
   border-radius: 80px;
   margin-left: auto;
@@ -137,9 +127,9 @@ h2 {
 }
 
 .box-history {
-  width: 360px;
+  width: 465px;
   height: 330px;
-  background: url("table-mountain.jpg");
+  background: url("history.jpg");
   background-size: cover;
   border-radius: 80px;
   margin-left: auto;
@@ -148,7 +138,7 @@ h2 {
 
 .overlay {
   background: rgba(0, 0, 0, 0.75);
-  width: 360px;
+  width: 465px;
   height: 330px;
   text-align: center;
   opacity: 0;

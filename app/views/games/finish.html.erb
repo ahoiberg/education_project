@@ -2,7 +2,7 @@
 
 <p>Your Score is: <%= @game.score%></p>
 <a href="/games">
-<button type="button" class="btn btn-default">
+<button type="button" class="btn btn-lg">
 Home
 </button>
 </a>
@@ -11,7 +11,7 @@ Home
 <div>
 <% @games.each do |game| %>
 		<a href="/games/<%=game.id%>/reset_score">
-	<button type="button" class="btn btn-default">
+	<button type="button" class="btn btn-lg">
 		<strong><%=game.title%></strong>
 	</button>
 	</a>

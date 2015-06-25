@@ -99,3 +99,106 @@ footer {
   color: #8E9AAF;
 }
 
+a{
+	display: block;
+}
+table {
+	table-layout:fixed;
+	overflow: hidden; 
+}
+
+table td {
+	border-color: 2px white;
+	margin:auto;
+}
+
+p {
+	font-size: 20px;
+}
+
+tbody {
+	margin: auto;
+}
+
+.box-pop {
+  background: url("pop-culture.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-apartheid {
+  background: url("apartheid1.png");
+  background-size: cover;
+  background-position: center;
+  background-position: center;
+  border-radius: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-history {
+  background: url("history1.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+   border-radius: 80px;
+   padding: 130px 0 0px 0;
+}
+
+.btn-primary {
+	background-color: #286090;
+}
+
+
+.question-page {
+	position: center;
+	background-color: #CCC7B9;
+	width: 90%;
+	margin: auto;
+	border-radius: 5%;
+  text-align: center;
+}
+
+.obox{
+  background:white;
+  border-radius: 80px;
+  margin: auto;
+  height: 200px;
+  font-size: 30px;
+  text-align: cover;
+  display: block;
+}
+
+.ex-text{
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 25px;
+}
+
+.ask-text{
+  font-size: 25px;
+}
+
+.tryfin-btn{
+	background-color: #CCC7B9;
+	height: 75px;
+	width: 200px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 5px;
+}

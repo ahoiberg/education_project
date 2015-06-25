@@ -207,19 +207,9 @@ tbody {
   float: left;
 }
 
-.next-btn{
-  background-color: #CCC7B9;
-  height: 75px;
-  width: 200px;
-  border-color: black;
-  border-style: solid;
-  border-radius: 5px;
-  padding: 5px;
-}
-
 .btn-hold{
   margin: 0 auto;
-  width: 400px;
+  width: 440px;
 }
 
 .btn-lrn{
@@ -236,7 +226,18 @@ tbody {
   color: white;
 }
 
+.next-btn{
+  background-color: #CCC7B9;
+  height: 75px;
+  width: 200px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin:10px;
+}
+
 .o-hold{
   margin: 0 auto;
-  width: 600px;
+  width: 660px;
 }

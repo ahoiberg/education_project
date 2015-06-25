@@ -10,7 +10,7 @@
 	<% else %> 
 		<div id= "wrong">
 			<h2> Sorry, try again! </h2>
-			<img src="/assets/<%=@random_sad%>">
+			<img src="<%= asset_path @random_sad %>">
 			<div class ="btn-hold">
 				<a href="/questions/<%=@option.question.id%>">
 					<button type="button" class="btn btn-lg float-btn next-btn">

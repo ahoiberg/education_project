@@ -1,248 +1,210 @@
-body { 
-	width: 100%;
-	background-color: #FFFFFF;
-	position: center;
-	font-family: 'Infinity';
+body {
+    width: 100%;
+    background-color: #FFFFFF;
+    position: center;
+    font-family: 'Infinity';
 }
-
 div {
-	text-align: center;
+    text-align: center;
 }
-
 footer {
-	clear: both;
+    clear: both;
     position: relative;
     height: 3em;
-	text-align: center; 
+    text-align: center;
     margin-top: 5em;
-	font-family: 'Infinity';
-	font-size: 1.6em;
+    font-family: 'Infinity';
+    font-size: 1.6em;
 }
-
-.static-page{
-	position: center;
-	background-color: #CCC7B9;
-	border-radius: 10%;
-	width: 80%;
-	height: 520px;
-	margin: 30px auto 0px auto;
-
-
+.static-page {
+    position: center;
+    background-color: #CCC7B9;
+    border-radius: 10%;
+    width: 80%;
+    height: 520px;
+    margin: 30px auto 0px auto;
 }
-
 .jumbotron {
-	height: 420px;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-image: image-url("table-mountain.jpg");
-	margin-bottom: 60px;
-	color: white;
+    height: 420px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: image-url("table-mountain.jpg");
+    margin-bottom: 60px;
+    color: white;
 }
-
-
 .container {
-	width: 100%;
-	border-radius: 50%;
-	padding: 10px;
-	position: right;
+    width: 100%;
+    border-radius: 50%;
+    padding: 10px;
+    position: right;
 }
-
 .nav {
-	border: none;
-	font-size: 1.5em;;
-	text-align: center;
-	border:none;
-	background-color: #DEE2FF;
+    border: none;
+    font-size: 1.5em;
+    ;
+    text-align: center;
+    border: none;
+    background-color: #DEE2FF;
 }
-
 .box-pop:hover .overlay {
-  opacity: .8;
+    opacity: .8;
 }
-
 .box-apartheid:hover .overlay {
-  opacity: .8;
+    opacity: .8;
 }
-
 .box-history:hover .overlay {
-  opacity: .8;
+    opacity: .8;
 }
-
 .question_type {
-  text-align: center;
-  font-family: Helvetica;
-  font-weight: 900;
-  color: rgba(255, 255, 255, 0.85);
-  font-size: 30px;
-  font-family: 'Infinity';
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 30px;
+    font-family: 'Infinity';
 }
-
 #welcome-title {
-  -moz-animation-duration: 2s;
-  -webkit-animation-duration: 2s;
-  -moz-animation-delay: .3s;
-  -webkit-animation-delay: .3s;
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    -moz-animation-delay: .3s;
+    -webkit-animation-delay: .3s;
 }
-
 #Fundi-title {
-	font-size: 88px;
+    font-size: 88px;
 }
-
 #Fundi-subtitle {
-	font-size: 48px;
+    font-size: 48px;
 }
-.otext{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+.otext {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
-
 #home-start-game {
-	margin: 1 0 0 0;
+    margin: 1 0 0 0;
 }
-
 #home-line {
-	margin: 0 auto 0 auto;
-	border: 2px solid;
-	width: 70%;
-  color: #8E9AAF;
+    margin: 0 auto 0 auto;
+    border: 2px solid;
+    width: 70%;
+    color: #8E9AAF;
 }
-
-a{
-	display: block;
+a {
+    display: block;
 }
 table {
-	table-layout:fixed;
-	overflow: hidden; 
+    table-layout: fixed;
+    overflow: hidden;
 }
-
 table td {
-	border-color: 2px white;
-	margin:auto;
+    border-color: 2px white;
+    margin: auto;
 }
-
 p {
-	font-size: 20px;
+    font-size: 20px;
 }
-
 tbody {
-	margin: auto;
+    margin: auto;
 }
-
 .box-pop {
-  background: image-url("pop-culture.jpg");
-  background-size: cover;
-  background-position: center;
-  border-radius: 80px;
-  margin-left: auto;
-  margin-right: auto;
+    background: image-url("pop-culture.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 80px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 .box-apartheid {
-  background: image-url("apartheid1.png");
-  background-size: cover;
-  background-position: center;
-  background-position: center;
-  border-radius: 80px;
-  margin-left: auto;
-  margin-right: auto;
+    background: image-url("apartheid1.png");
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    border-radius: 80px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 .box-history {
-  background: image-url("history1.jpg");
-  background-size: cover;
-  background-position: center;
-  border-radius: 80px;
-  margin-left: auto;
-  margin-right: auto;
+    background: image-url("history1.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 80px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 .overlay {
-  background: rgba(0, 0, 0, 0.75);
-  text-align: center;
-  opacity: 0;
-  -webkit-transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease;
-   border-radius: 80px;
-   padding: 130px 0 0px 0;
+    background: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+    border-radius: 80px;
+    padding: 130px 0 0px 0;
 }
-
 .btn-primary {
-	background-color: #286090;
+    background-color: #286090;
 }
-
-
 .question-page {
-	background-color: #CCC7B9;
-	width: 90%;
-	margin: 30px auto 0px auto;
-	border-radius: 5%;
-  	text-align: center;
-  	height: 850px;
+    background-color: #CCC7B9;
+    width: 90%;
+    margin: 30px auto 0px auto;
+    border-radius: 5%;
+    text-align: center;
+    height: 850px;
 }
-
-.obox{
-  background:white;
-  border-radius: 80px;
-  margin: auto;
-  height: 200px;
-  font-size: 30px;
-  text-align: cover;
-  display: block;
+.obox {
+    background: white;
+    border-radius: 80px;
+    margin: auto;
+    height: 200px;
+    font-size: 30px;
+    text-align: cover;
+    display: block;
 }
-
-.ex-text{
-  width: 60%;
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 25px;
+.ex-text {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
 }
-
-#ask-text{
-  font-size: 25px;
+#ask-text {
+    font-size: 25px;
 }
-
-.float-btn{
-  float: left;
+.float-btn {
+    float: left;
 }
-
-.btn-hold{
-  margin: 0 auto;
-  width: 440px;
+.btn-hold {
+    margin: 0 auto;
+    width: 440px;
 }
-
-.btn-lrn{
-  width: 200px;
-  height: 90px;
+.btn-lrn {
+    width: 200px;
+    height: 90px;
 }
-
-.lrn-txt{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #8E9AAF;
-  font-size: 30px;
-  color: white;
+.lrn-txt {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8E9AAF;
+    font-size: 30px;
+    color: white;
 }
-
-.next-btn{
-  background-color: #CCC7B9;
-  height: 75px;
-  width: 200px;
-  border-color: black;
-  border-style: solid;
-  border-radius: 5px;
-  padding: 5px;
-  margin:10px;
+.next-btn {
+    background-color: #CCC7B9;
+    height: 75px;
+    width: 200px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
 }
-
-.option-hold{
-  margin: 0 auto;
-  width: 660px;
+.option-hold {
+    margin: 0 auto;
+    width: 660px;
 }
-
-#finish-home-button{
-	width: 200px;
-	margin: auto;
+#finish-home-button {
+    width: 200px;
+    margin: auto;
 }

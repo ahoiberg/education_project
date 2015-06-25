@@ -16,6 +16,7 @@ footer {
 	text-align: center; 
     margin-top: 3em;
 	font-family: 'Infinity';
+	font-size: 1.6em;
 }
 
 .static-page{
@@ -36,9 +37,10 @@ footer {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-image: image-url("table-mountain.jpg");
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 	color: white;
 }
+
 
 .container {
 	width: 100%;
@@ -50,7 +52,9 @@ footer {
 .nav {
 	border: none;
 	background-color: #FFFFFF;
-	font-size: 8;
+	font-size: 2.2em;;
+	text-align: center;
+	border:none;
 }
 
 .box-pop:hover .overlay {
@@ -74,3 +78,7 @@ footer {
   font-family: 'Infinity';
 }
 
+.flipOutX {
+	// background-color: #fe5652;
+	// visibility: hidden;
+}

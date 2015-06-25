@@ -4,23 +4,13 @@
 			<h2><strong> Correct! Good job!</strong></h2>
 			<div class ="ex-text"><strong><%= @option.question.explanation %></strong></div>
 		</div>
-<<<<<<< HEAD
 		<img src="/assets/<%=@random_happy%>">
 		<br></br>
-=======
-		<img src="<%= asset_path @random_happy %>" />
-	<br></br>
->>>>>>> 7c77ce01b0b5a61c7cf4366836001ba2ed6b1ab9
-
 	<% else %> 
 		<div id= "wrong">
 			<h2> Sorry, try again! </h2>
-<<<<<<< HEAD
 			<img src="/assets/<%=@random_sad%>">
 			<br/><br/>
-=======
-			<img src="<%= asset_path @random_sad %>">
->>>>>>> 7c77ce01b0b5a61c7cf4366836001ba2ed6b1ab9
 			<div class ="btn-hold">
 				<a href="/questions/<%=@option.question.id%>">
 					<button type="button" class="btn btn-lg float-btn next-btn">

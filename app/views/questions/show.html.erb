@@ -2,7 +2,7 @@
 	
 	<h1>Question <%=@question_number%></h1>
 
-	<p><%= @question.query %></p>
+	<div class = "ask-text"><strong><%= @question.query %></strong><div>
 
 	<p><small>Question: <%=@question_number%> of 10 | Score: <%=@question.game.score%></small></p>
 	
@@ -24,10 +24,9 @@
 					</div>
 				</a>
 			</div>
-
-s
 		</div>
 		<br/><br/>
+		
 		<div class ="row">
 		    <div class="col-lg-5 col-sm-offset-1">
 				<a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[2].id%>">

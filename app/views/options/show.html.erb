@@ -4,16 +4,19 @@
 			<h2> Correct! Good job! </h2>
 			<%= @option.question.explanation %>
 		</div>
+		<img src="/assets/<%=@random_happy%>">
 	<br></br>
 
 	<% else %> 
 		<div id= "wrong">
 			<h2> Sorry, try again! </h2>
+			<img src="/assets/<%=@random_sad%>">
 			<a href="/questions/<%=@option.question.id%>">
 			<button type="button" class="btn btn-default">
 			</a>
 		Try Again
 		</button>
+			</a>
 		</div>
 	<% end %>
 	<% if (@option.question.id - Question.first.id) % 10 == 9 %>

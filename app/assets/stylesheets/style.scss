@@ -2,7 +2,6 @@ body {
 	width: 100%;
 	background-color: #FFFFFF;
 	position: center;
-	font-family: 'Infinity', sans-serif;
 	font-family: 'Infinity';
 }
 
@@ -22,9 +21,12 @@ footer {
 .static-page{
 	position: center;
 	background-color: #CCC7B9;
-	border-radius: 15%;
-	width: 90%;
+	border-radius: 10%;
+	width: 80%;
+	height: 480px;
 	margin: auto;
+
+
 }
 
 .jumbotron {
@@ -73,4 +75,6 @@ footer {
   font-weight: 900;
   color: rgba(255, 255, 255, 0.85);
   font-size: 30px;
+  font-family: 'Infinity';
 }
+

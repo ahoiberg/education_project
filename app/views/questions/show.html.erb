@@ -5,48 +5,45 @@
 	<p><%= @question.query %></p>
 
 	<p><small>Question: <%=@question_number%> of 10 | Score: <%=@question.game.score%></small></p>
-
-	<table class="fixed" table style="width:100%">
-		<tr>
-			<td>
+	
+	<div class ="option-container">
+		 <div class="row">
+		    <div class="col-lg-5 col-sm-offset-1">
 				<a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[0].id%>">
-					<button type="button" class="obtn" style="white-space: normal;">
+					<div class = "obox">
 						<strong><%=@options[0].choice%></strong>
-					</button>
+					</div>
 				</a>
-				<br/><br/>
-			</td>
+			</div>
 
-			<td>
+
+		    <div class="col-lg-5">
 				<a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[1].id%>">
-					<button type="button" class="obtn" style="white-space: normal;">
+					<div class="obox">
 						<strong><%=@options[1].choice%></strong>
-					</button>
+					</div>
 				</a>
-				<br/><br/>
-			</td>
+			</div>
 
-		</tr>
 
-		<tr>
-			<td>
+		</div>
+		<br/><br/>
+		<div class ="row">
+		    <div class="col-lg-5 col-sm-offset-1">
 				<a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[2].id%>">
-					<button type="button" class="obtn" style="white-space: normal;">
+					<div class="obox">
 						<strong><%=@options[2].choice%></strong>
-					</button>
+					</div>
 				</a>
-				<br/><br/>
-			</td>
-
-			<td>
+			</div>
+		    <div class="col-lg-5">
 				<a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[3].id%>">
-					<button type="button" class="obtn" style="white-space: normal;">
+					<div class="obox">
 						<strong><%=@options[3].choice%></strong>
-					</button>
+					</div>
 				</a>
-				<br/><br/>
-			</td>
-		</tr>
-	</table>
-
+			</div>
+		</div>
+		<br/><br/>
+	</div>
 </div>

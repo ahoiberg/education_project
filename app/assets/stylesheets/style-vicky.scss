@@ -61,14 +61,6 @@ tbody {
 	background-color: #286090;
 }
 
-.obtn{
-	border-radius: 20px;
-	font-size: 30px; 
-	display:block;
-	height:200px; 
-	width: 510px;
-	background-color: white;
-}
 
 .question-page {
 	position: center;
@@ -76,4 +68,15 @@ tbody {
 	width: 90%;
 	margin: auto;
 	border-radius: 5%;
+  text-align: center;
+}
+
+.obox{
+  background:white;
+  border-radius: 80px;
+  margin: auto;
+  height: 200px;
+  font-size: 30px;
+  text-align: cover;
+  display: block;
 }

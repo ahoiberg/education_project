@@ -12,8 +12,7 @@
 			<h2> Sorry, try again! </h2>
 			<img src="/assets/<%=@random_sad%>">
 			<a href="/questions/<%=@option.question.id%>">
-			<button type="button" class="btn btn-default">
-			</a>
+			<button type="button" class="btn btn-lg">
 		Try Again
 		</button>
 			</a>
@@ -27,7 +26,7 @@
 			</a>
 			<% else %>	
 			<a href="/questions/<%=@option.question.id+1%>">	
-		<button type="button" class="btn btn-default">
+		<button type="button" class="btn btn-lg">
 			Next Question
 		</button>
 			</a>

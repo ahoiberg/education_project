@@ -2,20 +2,20 @@
 
 <p>Your Score is: <%= @game.score%></p>
 <a href="/games">
-<button type="button" class="btn btn-lg">
+<button type="button" class="btn btn-lg next-btn">
 Home
 </button>
 </a>
 
 <h3>Or, play another game:</h3>
-<div>
-<% @games.each do |game| %>
+
+<div class ="o-hold">
+	<% @games.each do |game| %>
 		<a href="/games/<%=game.id%>/reset_score">
-	<button type="button" class="btn btn-lg">
-		<strong><%=game.title%></strong>
-	</button>
-	</a>
-	<br></br>
+			<button type="button" class="btn btn-lg next-btn" style="float: left;">
+				<strong><%=game.title%></strong>
+			</button>
+		</a>
 	<% end %>
 </div>
 </div>

@@ -11,7 +11,7 @@
 			<h2> Sorry, try again! </h2>
 			<a href="/questions/<%=@option.question.id%>">
 			<button type="button" class="btn btn-default">
-
+			</a>
 		Try Again
 		</button>
 		</div>
@@ -21,10 +21,12 @@
 			<button type="button" class="btn btn-default">
 				Finish
 			</button>
+			</a>
 			<% else %>	
 			<a href="/questions/<%=@option.question.id+1%>">	
 		<button type="button" class="btn btn-default">
 			Next Question
 		</button>
+			</a>
 	<% end %>
 </div>

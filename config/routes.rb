@@ -25,6 +25,8 @@ Rails.application.routes.draw do
 
    get 'options/:id/show' => 'options#show'
 
+   get 'users/:id' => 'users#show'
+
 
 
   # Example of regular route:

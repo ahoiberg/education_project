@@ -193,7 +193,11 @@ tbody {
   font-size: 25px;
 }
 
-.wrong-btn{
+.float-btn{
+  float: left;
+}
+
+.next-btn{
   background-color: #CCC7B9;
   height: 75px;
   width: 200px;
@@ -201,10 +205,6 @@ tbody {
   border-style: solid;
   border-radius: 5px;
   padding: 5px;
-}
-
-.tryfin-btn{
-  float: left;
 }
 
 .tryfin-hold{

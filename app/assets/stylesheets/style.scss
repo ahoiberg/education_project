@@ -14,7 +14,7 @@ footer {
     position: relative;
     height: 3em;
 	text-align: center; 
-    margin-top: 3em;
+    margin-top: 5em;
 	font-family: 'Infinity';
 	font-size: 1.6em;
 }
@@ -24,8 +24,8 @@ footer {
 	background-color: #CCC7B9;
 	border-radius: 10%;
 	width: 80%;
-	height: 480px;
-	margin: auto;
+	height: 520px;
+	margin: 30px auto 0px auto;
 
 
 }
@@ -174,12 +174,12 @@ tbody {
 
 
 .question-page {
-	position: center;
 	background-color: #CCC7B9;
 	width: 90%;
-	margin: auto;
+	margin: 30px auto 0px auto;
 	border-radius: 5%;
-  text-align: center;
+  	text-align: center;
+  	height: 850px;
 }
 
 .obox{
@@ -199,7 +199,7 @@ tbody {
   font-size: 25px;
 }
 
-.ask-text{
+#ask-text{
   font-size: 25px;
 }
 
@@ -239,4 +239,9 @@ tbody {
 .o-hold{
   margin: 0 auto;
   width: 600px;
+}
+
+#finish-home-button{
+	width: 200px;
+	margin: auto;
 }

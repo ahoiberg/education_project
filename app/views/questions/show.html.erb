@@ -1,48 +1,53 @@
 <div class="question-page">
-	
-	<h1>Question <%=@question_number%></h1>
-
-	<div class = "ask-text"><strong><%= @question.query %></strong><div>
-
-	<p><small>Question: <%=@question_number%> of 10 | Score: <%=@question.game.score%></small></p>
-	
-	<div class ="option-container">
-		 <div class="row">
-		    <div class="col-lg-5 col-sm-offset-1">
-				<a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[0].id%>">
-					<div class = "obox">
-						<div class = "otext"><strong><%=@options[0].choice%></strong></div>
-					</div>
-				</a>
-			</div>
-
-
-		    <div class="col-lg-5">
-				<a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[1].id%>">
-					<div class="obox">
-						<div class = "otext"><strong><%=@options[1].choice%></strong></div>
-					</div>
-				</a>
-			</div>
-		</div>
-		<br/><br/>
-		
-		<div class ="row">
-		    <div class="col-lg-5 col-sm-offset-1">
-				<a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[2].id%>">
-					<div class="obox">
-						<div class = "otext"><strong><%=@options[2].choice%></div></strong>
-					</div>
-				</a>
-			</div>
-		    <div class="col-lg-5">
-				<a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[3].id%>">
-					<div class="obox">
-						<div class = "otext"><strong><%=@options[3].choice%></strong></div>
-					</div>
-				</a>
-			</div>
-		</div>
-		<br/><br/>
-	</div>
+   <br>
+   <h1>Question <%=@question_number%></h1>
+   <div id = "ask-text">
+      <strong><%= @question.query %></strong>
+      <div>
+         <p><strong>Question: <%=@question_number%> of 10 | Score: <%=@question.game.score%></strong></p>
+         <br>
+         <div class ="option-container">
+            <div class="row">
+               <div class="col-lg-5 col-sm-offset-1">
+                  <a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[0].id%>">
+                     <div class = "obox">
+                        <div class = "otext"><strong><%=@options[0].choice%></strong></div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-lg-5">
+                  <a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[1].id%>">
+                     <div class="obox">
+                        <div class = "otext"><strong><%=@options[1].choice%></strong></div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <br/><br/>
+            <div class ="row">
+               <div class="col-lg-5 col-sm-offset-1">
+                  <a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[2].id%>">
+                     <div class="obox">
+                        <div class = "otext"><strong><%=@options[2].choice%></div>
+                        </strong>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-lg-5">
+                  <a href = "/games/<%=@question.game.id%>/update_score?option_id=<%=@options[3].id%>">
+                     <div class="obox">
+                        <div class = "otext"><strong><%=@options[3].choice%></strong></div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <br/><br/>
+         </div>
+      </div>
+      </a>
+   </div>
+</div>
+</div>
+</div>
+</div>
 </div>

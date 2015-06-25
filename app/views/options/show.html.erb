@@ -4,7 +4,7 @@
 			<h2><strong> Correct! Good job!</strong></h2>
 			<div class ="ex-text"><strong><%= @option.question.explanation %></strong></div>
 		</div>
-		<img src="/assets/<%=@random_happy%>">
+		<img src="<%= asset_path @random_happy %>" />
 	<br></br>
 
 	<% else %> 

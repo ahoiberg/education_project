@@ -1,8 +1,8 @@
 <div>
 	<% if @option.is_correct? %> 
 		<div id="explanation">
-			<h2> Correct! Good job! </h2>
-			<%= @option.question.explanation %>
+			<h2><strong> Correct! Good job!</strong></h2>
+			<div class ="ex-text"><strong><%= @option.question.explanation %></strong></div>
 		</div>
 		<img src="/assets/<%=@random_happy%>">
 	<br></br>
@@ -12,23 +12,23 @@
 			<h2> Sorry, try again! </h2>
 			<img src="/assets/<%=@random_sad%>">
 			<a href="/questions/<%=@option.question.id%>">
-			<button type="button" class="btn btn-lg">
-		Try Again
-		</button>
+				<button type="button" class="btn btn-lg tryfin-btn">
+					Try Again
+				</button>
 			</a>
 		</div>
 	<% end %>
 	<% if (@option.question.id - Question.first.id) % 10 == 9 %>
 			<a href="/games/<%=@option.question.game.id%>/finish">
-			<button type="button" class="btn btn-lg">
-				Finish
-			</button>
+				<button type="button" class="btn btn-lg tryfin-btn">
+					Finish
+				</button>
 			</a>
 			<% else %>	
 			<a href="/questions/<%=@option.question.id+1%>">	
-		<button type="button" class="btn btn-lg">
-			Next Question
-		</button>
+				<button type="button" class="btn btn-lg tryfin-btn">
+					Next Question
+				</button>
 			</a>
 	<% end %>
 </div>

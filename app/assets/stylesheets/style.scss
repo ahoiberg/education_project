@@ -31,7 +31,7 @@ footer {
 }
 
 .jumbotron {
-	height: 450px;
+	height: 420px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -51,10 +51,10 @@ footer {
 
 .nav {
 	border: none;
-	background-color: #FFFFFF;
 	font-size: 2.2em;;
 	text-align: center;
 	border:none;
+	background-color: #DEE2FF;
 }
 
 .box-pop:hover .overlay {
@@ -79,8 +79,10 @@ footer {
 }
 
 #welcome-title {
-  -moz-animation-duration: 1s;
-  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-delay: .3s;
+  -webkit-animation-delay: .3s;
 }
 
 #Fundi-title {
@@ -89,4 +91,9 @@ footer {
 
 #Fundi-subtitle {
 	font-size: 48px;
+}
+.otext{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }

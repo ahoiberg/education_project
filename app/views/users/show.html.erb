@@ -1,0 +1,10 @@
+<div>
+<h1>Welcome, <%= @user.username %>!</h1>
+
+<% @scores.each do |score| %>
+
+	<p>Score: <%=score.score%> </p>
+	
+<% end %>
+
+</div>

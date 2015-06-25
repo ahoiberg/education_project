@@ -31,7 +31,7 @@ footer {
 }
 
 .jumbotron {
-	height: 380px;
+	height: 450px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -78,7 +78,15 @@ footer {
   font-family: 'Infinity';
 }
 
-.flipOutX {
-	// background-color: #fe5652;
-	// visibility: hidden;
+#welcome-title {
+  -moz-animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+}
+
+#Fundi-title {
+	font-size: 88px;
+}
+
+#Fundi-subtitle {
+	font-size: 48px;
 }

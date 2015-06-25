@@ -112,7 +112,7 @@ Option.create! choice: "create a united Africa ", is_correct?: false, question: 
 Option.create! choice: "promote homeland areas for Blacks", is_correct?: false, question: q12
 
 #Question q13
-q13 = Question.create! query: "What was the name of African National Congress’ (ANC) opposition?", game: second_game, explanation: "The National Party was a political party in South Africa founded in 1915 and was the governing party of the country from 4 June 1948 until 9 May 1994. Members of the National Party were sometimes known as Nationalists or Nats. The policies of the party included apartheid, the establishment of a republic, and the promotion of Afrikaner culture."
+q13 = Question.create! query: "What was the name of African National Congress’ ( ANC ) opposition?", game: second_game, explanation: "The National Party was a political party in South Africa founded in 1915 and was the governing party of the country from 4 June 1948 until 9 May 1994. Members of the National Party were sometimes known as Nationalists or Nats. The policies of the party included apartheid, the establishment of a republic, and the promotion of Afrikaner culture."
 
 Option.create! choice: "The other ANC party	", is_correct?: false, question: q13  
 Option.create! choice: "Blue party", is_correct?: false, question: q13  

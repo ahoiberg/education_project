@@ -55,7 +55,7 @@ Option.create! choice: "2 (1995, 2007)", is_correct?: true, question: q5
 Option.create! choice: "0", is_correct?: false, question: q5
 
 #Question 6
-q6 = Question.create! query: " Which of these famous individuals is NOT South African?", game: first_game, explanation: "Tolkien was born in Bloemfontein, and moved to England at the age at third_game. Musk lived in South Africa until just before his 18th birthday. Theron grew up in Benoni, near Johannesburg, and is Afrikaans."
+q6 = Question.create! query: " Which of these famous individuals is NOT South African?", game: first_game, explanation: "Tolkien was born in Bloemfontein, and moved to England at the age of three. Musk lived in South Africa until just before his 18th birthday. Theron grew up in Benoni, near Johannesburg, and is Afrikaans."
 Option.create! choice: "J.R.R. Tolkien", is_correct?: false, question: q6
 Option.create! choice: "Elon Musk", is_correct?: false, question: q6
 Option.create! choice: "Charlize Theron", is_correct?: false, question: q6

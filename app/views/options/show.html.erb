@@ -6,12 +6,12 @@
 			<h2><strong> Correct! Good job!</strong></h2>
 			<div class ="ex-text"><strong><%= @option.question.explanation %></strong></div>
 		</div>
-		<img src="/assets/<%=@random_happy%>">
+		<img src="<%= asset_path @random_happy%>">
 		<br></br>
 	<% else %> 
 		<div id= "wrong">
 			<h2> Sorry, try again! </h2>
-			<img src="/assets/<%=@random_sad%>">
+			<img src="<%= asset_path @random_sad%>">
 			<br/><br/>
 			<div class ="btn-hold">
 				<a href="/questions/<%=@option.question.id%>">

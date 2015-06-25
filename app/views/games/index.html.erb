@@ -22,25 +22,31 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-6 col-sm-4">
-        <div class="box-pop">
-          <div class="overlay">
-            <span class="question_type"><a href="/games/<%=Game.first.id%>/reset_score">Pop Culture</a></span>
+        <a href="/games/<%=Game.first.id%>/reset_score">
+          <div class="box-pop">
+            <div class="overlay">
+              <span class="question_type">Pop Culture</span>
+            </div>
           </div>
-        </div>
+        </a>
     </div>
     <div class="col-xs-6 col-sm-4">
-        <div class="box-apartheid">
-          <div class="overlay">
-            <span class="question_type"><a href="/games/<%=Game.first.id + 1%>/reset_score">Apartheid</a></span>
+        <a href="/games/<%=Game.first.id + 1%>/reset_score">
+          <div class="box-apartheid">
+            <div class="overlay">
+              <span class="question_type">Apartheid</span>
+            </div>
           </div>
-        </div>
+        </a>
     </div>
     <div class="col-xs-6 col-sm-4">
-        <div class="box-history">
-          <div class="overlay">
-            <span class="question_type"><a href="/games/<%=Game.last.id%>/reset_score">History</a></span>
+        <a href="/games/<%=Game.last.id%>/reset_score">
+          <div class="box-history">
+            <div class="overlay">
+              <span class="question_type">History</span>
+            </div>
           </div>
-        </div>
+        </a>
     </div>
   </div>
 </div>

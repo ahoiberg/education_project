@@ -7,12 +7,12 @@
 			<div class ="ex-text"><strong><%= @option.question.explanation %></strong></div>
 		</div>
 		<img src="/assets/<%=@random_happy%>">
-	<br></br>
-
+		<br></br>
 	<% else %> 
 		<div id= "wrong">
 			<h2> Sorry, try again! </h2>
 			<img src="/assets/<%=@random_sad%>">
+			<br/><br/>
 			<div class ="btn-hold">
 				<a href="/questions/<%=@option.question.id%>">
 					<button type="button" class="btn btn-lg float-btn next-btn">

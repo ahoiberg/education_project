@@ -193,18 +193,35 @@ tbody {
   font-size: 25px;
 }
 
+.wrong-btn{
+  background-color: #CCC7B9;
+  height: 75px;
+  width: 200px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
 .tryfin-btn{
-	background-color: #CCC7B9;
-	height: 75px;
-	width: 200px;
-	border-color: black;
-	border-style: solid;
-	border-radius: 5px;
-	padding: 5px;
   float: left;
 }
 
 .tryfin-hold{
   margin: 0 auto;
   width: 400px;
+}
+
+.btn-lrn{
+  width: 200px;
+  height: 90px;
+}
+
+.lrn-txt{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #8E9AAF;
+  font-size: 30px;
+  color: white;
 }

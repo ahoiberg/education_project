@@ -12,29 +12,29 @@
 			<h2> Sorry, try again! </h2>
 			<img src="/assets/<%=@random_sad%>">
 			<div class ="tryfin-hold">
-			<a href="/questions/<%=@option.question.id%>">
-				<button type="button" class="btn btn-lg tryfin-btn">
-					Try Again
-				</button>
-			</a>
+				<a href="/questions/<%=@option.question.id%>">
+					<button type="button" class="btn btn-lg tryfin-btn wrong-btn">
+						Try Again
+					</button>
+				</a>
 			</div>
 		</div>
 	<% end %>
 	<% if (@option.question.id - Question.first.id) % 10 == 9 %>
 			<div class ="tryfin-hold">
-			<a href="/games/<%=@option.question.game.id%>/finish">
-				<button type="button" class="btn btn-lg tryfin-btn">
-					Finish
-				</button>
-			</a>
+				<a href="/games/<%=@option.question.game.id%>/finish">
+					<button type="button" class="btn btn-lg tryfin-btn">
+						Finish
+					</button>
+				</a>
 			</div>
 			<% else %>	
 			<div class ="tryfin-hold">
-			<a href="/questions/<%=@option.question.id+1%>">	
-				<button type="button" class="btn btn-lg tryfin-btn" style: "float: left;">
-					Next Question
-				</button>
-			</a>
+				<a href="/questions/<%=@option.question.id+1%>">	
+					<button type="button" class="btn btn-lg wrong-btn">
+						Next Question
+					</button>
+				</a>
 			</div>
 	<% end %>
 </div>

@@ -1,8 +1,8 @@
 <div>
 	<% if @option.is_correct? %> 
 		<div id="explanation">
-			<h2> Correct! Good job! </h2>
-			<%= @option.question.explanation %>
+			<h2><strong> Correct! Good job!</strong></h2>
+			<div class ="ex-text"><strong><%= @option.question.explanation %></strong></div>
 		</div>
 		<img src="/assets/<%=@random_happy%>">
 	<br></br>

@@ -22,9 +22,9 @@ first_game = Game.create! title: "South African Pop Culture", score: 0
 q1 = Question.create! query: "What is Bafana Bafana?", game: first_game, explanation: "Bafana Bafana is a Zulu word, which translates literally to English as “The boys, the boys.” In July 1992, at Kings Park stadium in Durban, fans shouted \"Bafana bafana\"[GO BOYS GO BOYS] when South Africa was on the verge of beating Cameroon and after the game. A group of three journalists, from South Africa newspaper The Sowetan, then began to use the name in print when referring to the team.
 "
 Option.create! choice: "A common South African snack", is_correct?: false, question: q1
-Option.create! choice: "the national football team", is_correct?: true, question: q1
+Option.create! choice: "The national football team", is_correct?: true, question: q1
 Option.create! choice: "An Oscar-award winning film set in Cape Town", is_correct?: false, question: q1
-Option.create! choice: "the major highway between Cape Town and Johannesburg", is_correct?: false, question: q1
+Option.create! choice: "The major highway between Cape Town and Johannesburg", is_correct?: false, question: q1
 
 #Question 2
 q2 = Question.create! query: "What year did South Africa host the World Cup?", game: first_game, explanation: "the 2010 world cup took place in stadiums across South Africa. Spain won the final, beating the Netherlands 1-0."
@@ -106,10 +106,10 @@ Option.create! choice: "1994", is_correct?: false, question: q11
 #Question q12
 q12 = Question.create! query: "In the Republic of South Africa, the primary goal of the African National Congress (ANC) has been to", game: second_game, explanation: "The African National Congress is composed of South Africa blacks who are the majority people in South Africa, but have been denied participation in the government by the minority white population. The ANC has sought to become the ruling party in South Africa for some time."
 
-Option.create! choice: "eliminate communist influence", is_correct?: false, question: q12
-Option.create! choice: "rule as the majority political party", is_correct?: true, question: q12
-Option.create! choice: "create a united Africa ", is_correct?: false, question: q12
-Option.create! choice: "promote homeland areas for Blacks", is_correct?: false, question: q12
+Option.create! choice: "Eliminate communist influence", is_correct?: false, question: q12
+Option.create! choice: "Rule as the majority political party", is_correct?: true, question: q12
+Option.create! choice: "Create a united Africa ", is_correct?: false, question: q12
+Option.create! choice: "Promote homeland areas for Blacks", is_correct?: false, question: q12
 
 #Question q13
 q13 = Question.create! query: "What was the name of African National Congress’ ( ANC ) opposition?", game: second_game, explanation: "The National Party was a political party in South Africa founded in 1915 and was the governing party of the country from 4 June 1948 until 9 May 1994. Members of the National Party were sometimes known as Nationalists or Nats. The policies of the party included apartheid, the establishment of a republic, and the promotion of Afrikaner culture."
@@ -122,17 +122,17 @@ Option.create! choice: "Unity Party", is_correct?: false, question: q13
 #Question q14
 q14 = Question.create! query: "In the 1980’s, global concern for Blacks in the Republic of South Africa led many nations to", game: second_game, explanation: "One of the many tools other nations used to end Apartheid was economic boycotts of South African products and services"
 
-Option.create! choice: "support policies of Apartheid ", is_correct?: false, question: q14  
-Option.create! choice: "impose economic sanctions on South Africa", is_correct?: true, question: q14  
-Option.create! choice: "sent troops to South Africa", is_correct?: false, question: q14  
-Option.create! choice: "demand that Whites return to their European homelands ", is_correct?: false, question: q14
+Option.create! choice: "Support policies of Apartheid ", is_correct?: false, question: q14  
+Option.create! choice: "Impose economic sanctions on South Africa", is_correct?: true, question: q14  
+Option.create! choice: "Sent troops to South Africa", is_correct?: false, question: q14  
+Option.create! choice: "Demand that Whites return to their European homelands ", is_correct?: false, question: q14
 
 #Question q15
 q15 = Question.create! query: "Which statement best characterizes the period of apartheid in South Africa?", game: second_game, explanation: "Apartheid was a series of laws that segregated and discriminated against the majority black population of South Africa. This policy was started and upheld by the minority white population who held all governmental power."
 
-Option.create! choice: "the majority of the population had the right to vote", is_correct?: false , question: q15
-Option.create! choice: "the Boers attempted to conquer Nigeria", is_correct?: false, question: q15
-Option.create! choice: "many racist ideas of the ruling minority were adopted into laws ", is_correct?: true, question: q15
+Option.create! choice: "The majority of the population had the right to vote", is_correct?: false , question: q15
+Option.create! choice: "The Boers attempted to conquer Nigeria", is_correct?: false, question: q15
+Option.create! choice: "Many racist ideas of the ruling minority were adopted into laws ", is_correct?: true, question: q15
 Option.create! choice: "French was declared the official language of the nation", is_correct?: false, question: q15
 
 #Question q16
@@ -203,7 +203,7 @@ Option.create! choice: "BP", is_correct?: false, question: q23
 q24 = Question.create! query: " At first the Cape Colony was struggling. What happened in the 1680s that strengthened the colony?", game: third_game, explanation: "In 1652 the Dutch East India Company sent 80 colonists to the southern tip of Africa. Here they founded a trading post called Cape Town. At first the colony struggled, but in the 1680s it was strenghtened by the arrival of French Huguenot refugees."
 Option.create! choice: "Diamonds were found", is_correct?: false, question: q24
 Option.create! choice: "French Huguenot refugees arrived", is_correct?: true, question: q24
-Option.create! choice: "q10,000 cows were imported from England", is_correct?: false, question: q24
+Option.create! choice: "10,000 cows were imported from England", is_correct?: false, question: q24
 Option.create! choice: "The Dutch started to sell natives as slaves", is_correct?: false, question: q24
 
 #Question q25

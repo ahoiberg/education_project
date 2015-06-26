@@ -3,7 +3,7 @@
 <div>
 	<% if @option.is_correct? %> 
 		<div id="explanation">
-			<h2><strong> Correct! Good job!</strong></h2>
+			<div class = "goodjob"><strong> Correct! Good job!</strong></div>
 			<div class ="ex-text"><strong><%= @option.question.explanation %></strong></div>
 		</div>
 		<img src="<%= asset_path @random_happy%>">
